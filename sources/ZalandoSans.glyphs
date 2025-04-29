@@ -417,7 +417,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -510,7 +510,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -601,7 +601,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -689,7 +689,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -782,7 +782,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -872,7 +872,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -960,7 +960,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1051,7 +1051,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1142,7 +1142,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1230,7 +1230,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1324,7 +1324,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1413,7 +1413,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1502,7 +1502,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1596,7 +1596,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1684,7 +1684,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1773,7 +1773,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1867,7 +1867,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -1959,7 +1959,7 @@ value = 964;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = strikeoutPosition;
@@ -157375,8 +157375,8 @@ width = 1272;
 },
 {
 color = 6;
-glyphname = U00A0;
-lastChange = "2025-04-29 08:51:30 +0000";
+glyphname = nbspace;
+lastChange = "2025-04-29 11:32:54 +0000";
 layers = (
 {
 layerId = m007;
