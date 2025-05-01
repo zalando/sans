@@ -5,3 +5,7 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
+Zalando SE <email address>
+Kurppa Hosk <email address>
+KH Type <email address>
+Jakob Ekelund <email address>

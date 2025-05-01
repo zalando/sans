@@ -8,3 +8,6 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+Gerrit Kaiser <email address>
+Rosalie Wagner <mail@rosaliewagner.com>
