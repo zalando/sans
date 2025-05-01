@@ -91,19 +91,19 @@ with open("README.md", "w") as fh:
 
 git.add("README.md")
 
-# Fix the OFL
-year = datetime.date.today().year
-title = reponame.title()
-copyright = f"Copyright {year} The {title} Project Authors ({project_url})\n"
-print("Fetching the latest OFL..")
-ofl = requests.get(LATEST_OFL).text.splitlines()
-print("Writing an OFL for you")
-print(copyright)
-with open("OFL.txt", "w") as fh:
-    fh.write(copyright)
-    fh.write("\n".join(ofl[1:]))
+# # Fix the OFL
+# year = datetime.date.today().year
+# title = reponame.title()
+# copyright = f"Copyright {year} The {title} Project Authors ({project_url})\n"
+# print("Fetching the latest OFL..")
+# ofl = requests.get(LATEST_OFL).text.splitlines()
+# print("Writing an OFL for you")
+# print(copyright)
+# with open("OFL.txt", "w") as fh:
+#     fh.write(copyright)
+#     fh.write("\n".join(ofl[1:]))
 
-git.add("OFL.txt")
+# git.add("OFL.txt")
 
 # Pin the dependencies
 print("Pinning dependencies")
