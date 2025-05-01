@@ -117,7 +117,7 @@ result = git.status("--porcelain")
 if any(line.startswith("M ") for line in result.splitlines()):
     git.commit("-m", "Customize repository")
 
-    print("Pushing changes to GitHub")
-    git.push()
-else:
-    print("Nothing changed, no need to push")
+#     print("Pushing changes to GitHub")
+#     git.push()
+# else:
+#     print("Nothing changed, no need to push")
