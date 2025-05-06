@@ -9,5 +9,5 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Gerrit Kaiser <email address>
+Gerrit Kaiser <gerrit.kaiser@zalando.de>
 Rosalie Wagner <mail@rosaliewagner.com>
