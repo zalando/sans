@@ -157,7 +157,7 @@ fontbakery version: 1.0.0
 </div>
 </details>
 
-<details><summary>[18] ZalandoSans[wdth,wght,slnt].ttf</summary>
+<details><summary>[17] ZalandoSans[wdth,wght,slnt].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Validates that all of the instance records in a given font have the same size. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-same-size-instance-records">opentype/varfont/same_size_instance_records</a></summary>
@@ -324,27 +324,6 @@ fontbakery version: 1.0.0
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-canonical-filename">googlefonts/canonical_filename</a></summary>
     <div>
 
@@ -386,93 +365,8 @@ fontbakery version: 1.0.0
 </thead>
 <tbody>
 <tr>
-<td align="left">Expanded</td>
-<td align="left">wdth=125.0, wght=400.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed Bold</td>
-<td align="left">wdth=75.0, wght=700.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded SemiBold Italic</td>
-<td align="left">wdth=125.0, wght=600.0, slnt=-10.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded Light Italic</td>
-<td align="left">wdth=125.0, wght=300.0, slnt=-10.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded Light</td>
-<td align="left">wdth=125.0, wght=300.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed Medium</td>
-<td align="left">wdth=75.0, wght=500.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed SemiBold Italic</td>
-<td align="left">wdth=75.0, wght=600.0, slnt=-10.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed SemiBold</td>
-<td align="left">wdth=75.0, wght=600.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded ExtraLight</td>
-<td align="left">wdth=125.0, wght=200.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded SemiBold</td>
-<td align="left">wdth=125.0, wght=600.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed Italic</td>
-<td align="left">wdth=75.0, wght=400.0, slnt=-10.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed ExtraBold Italic</td>
-<td align="left">wdth=75.0, wght=800.0, slnt=-10.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded Italic</td>
-<td align="left">wdth=125.0, wght=400.0, slnt=-10.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed</td>
-<td align="left">wdth=75.0, wght=400.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed ExtraLight</td>
-<td align="left">wdth=75.0, wght=200.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed ExtraBold</td>
-<td align="left">wdth=75.0, wght=800.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded Medium Italic</td>
-<td align="left">wdth=125.0, wght=500.0, slnt=-10.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Condensed Light</td>
-<td align="left">wdth=75.0, wght=300.0, slnt=0.0</td>
+<td align="left">Condensed Light Italic</td>
+<td align="left">wdth=75.0, wght=300.0, slnt=-10.0</td>
 <td align="left">N/A</td>
 </tr>
 <tr>
@@ -481,8 +375,8 @@ fontbakery version: 1.0.0
 <td align="left">N/A</td>
 </tr>
 <tr>
-<td align="left">Expanded Bold</td>
-<td align="left">wdth=125.0, wght=700.0, slnt=0.0</td>
+<td align="left">Expanded SemiBold</td>
+<td align="left">wdth=125.0, wght=600.0, slnt=0.0</td>
 <td align="left">N/A</td>
 </tr>
 <tr>
@@ -491,18 +385,8 @@ fontbakery version: 1.0.0
 <td align="left">N/A</td>
 </tr>
 <tr>
-<td align="left">Expanded Medium</td>
-<td align="left">wdth=125.0, wght=500.0, slnt=0.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded ExtraLight Italic</td>
-<td align="left">wdth=125.0, wght=200.0, slnt=-10.0</td>
-<td align="left">N/A</td>
-</tr>
-<tr>
-<td align="left">Expanded Bold Italic</td>
-<td align="left">wdth=125.0, wght=700.0, slnt=-10.0</td>
+<td align="left">Expanded ExtraLight</td>
+<td align="left">wdth=125.0, wght=200.0, slnt=0.0</td>
 <td align="left">N/A</td>
 </tr>
 <tr>
@@ -511,8 +395,8 @@ fontbakery version: 1.0.0
 <td align="left">N/A</td>
 </tr>
 <tr>
-<td align="left">Expanded ExtraBold Italic</td>
-<td align="left">wdth=125.0, wght=800.0, slnt=-10.0</td>
+<td align="left">Expanded SemiBold Italic</td>
+<td align="left">wdth=125.0, wght=600.0, slnt=-10.0</td>
 <td align="left">N/A</td>
 </tr>
 <tr>
@@ -521,8 +405,103 @@ fontbakery version: 1.0.0
 <td align="left">N/A</td>
 </tr>
 <tr>
-<td align="left">Condensed Light Italic</td>
-<td align="left">wdth=75.0, wght=300.0, slnt=-10.0</td>
+<td align="left">Expanded Bold</td>
+<td align="left">wdth=125.0, wght=700.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed ExtraLight</td>
+<td align="left">wdth=75.0, wght=200.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed Bold</td>
+<td align="left">wdth=75.0, wght=700.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed ExtraBold</td>
+<td align="left">wdth=75.0, wght=800.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed ExtraBold Italic</td>
+<td align="left">wdth=75.0, wght=800.0, slnt=-10.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed Italic</td>
+<td align="left">wdth=75.0, wght=400.0, slnt=-10.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded Light</td>
+<td align="left">wdth=125.0, wght=300.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed</td>
+<td align="left">wdth=75.0, wght=400.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed Light</td>
+<td align="left">wdth=75.0, wght=300.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded Medium</td>
+<td align="left">wdth=125.0, wght=500.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded Italic</td>
+<td align="left">wdth=125.0, wght=400.0, slnt=-10.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed Medium</td>
+<td align="left">wdth=75.0, wght=500.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded</td>
+<td align="left">wdth=125.0, wght=400.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded Bold Italic</td>
+<td align="left">wdth=125.0, wght=700.0, slnt=-10.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed SemiBold Italic</td>
+<td align="left">wdth=75.0, wght=600.0, slnt=-10.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded Medium Italic</td>
+<td align="left">wdth=125.0, wght=500.0, slnt=-10.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded ExtraBold Italic</td>
+<td align="left">wdth=125.0, wght=800.0, slnt=-10.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded Light Italic</td>
+<td align="left">wdth=125.0, wght=300.0, slnt=-10.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Condensed SemiBold</td>
+<td align="left">wdth=75.0, wght=600.0, slnt=0.0</td>
+<td align="left">N/A</td>
+</tr>
+<tr>
+<td align="left">Expanded ExtraLight Italic</td>
+<td align="left">wdth=125.0, wght=200.0, slnt=-10.0</td>
 <td align="left">N/A</td>
 </tr>
 <tr>
@@ -658,17 +637,7 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=100,wght=400,slnt=0, [1, 0] in wdth=100,wght=400,slnt=-10.
-
-- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=100,wght=400,slnt=-10, [1, 0] in wdth=75,wght=400,slnt=0.
-
-- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=100,wght=800,slnt=0, [1, 0] in wdth=75,wght=400,slnt=-10.
-
-- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=100,wght=800,slnt=-10, [1, 0] in wdth=75,wght=200,slnt=0.
-
-- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=125,wght=800,slnt=0, [1, 0] in wdth=75,wght=200,slnt=-10.
-
-- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=100,wght=400,slnt=0, [1, 0, 2, 3] in wdth=100,wght=400,slnt=-10.
+<pre><code>- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=100,wght=400,slnt=0, [1, 0, 2, 3] in wdth=100,wght=400,slnt=-10.
 
 - Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=100,wght=400,slnt=-10, [1, 0, 2, 3] in wdth=75,wght=400,slnt=0.
 
@@ -677,16 +646,6 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 - Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=100,wght=800,slnt=-10, [1, 0, 2, 3] in wdth=75,wght=200,slnt=0.
 
 - Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=125,wght=800,slnt=0, [1, 0, 2, 3] in wdth=75,wght=200,slnt=-10.
-
-- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=100,wght=400,slnt=0, [1, 0] in wdth=100,wght=400,slnt=-10.
-
-- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=100,wght=400,slnt=-10, [1, 0] in wdth=75,wght=400,slnt=0.
-
-- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=100,wght=800,slnt=0, [1, 0] in wdth=75,wght=400,slnt=-10.
-
-- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=100,wght=800,slnt=-10, [1, 0] in wdth=75,wght=200,slnt=0.
-
-- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=125,wght=800,slnt=0, [1, 0] in wdth=75,wght=200,slnt=-10.
 
 - Contour 0 start point differs in glyph 'exclamdown' between location wdth=100,wght=400,slnt=0 and location wdth=100,wght=400,slnt=-10
 
@@ -725,6 +684,26 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 - Contour 1 start point differs in glyph 'exclamdown' between location wdth=125,wght=800,slnt=0 and location wdth=75,wght=200,slnt=-10
 
 - Contour 1 in glyph 'exclamdown': becomes underweight between wdth=125,wght=800,slnt=0 and wdth=75,wght=200,slnt=-10.
+
+- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=100,wght=400,slnt=0, [1, 0] in wdth=100,wght=400,slnt=-10.
+
+- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=100,wght=400,slnt=-10, [1, 0] in wdth=75,wght=400,slnt=0.
+
+- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=100,wght=800,slnt=0, [1, 0] in wdth=75,wght=400,slnt=-10.
+
+- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=100,wght=800,slnt=-10, [1, 0] in wdth=75,wght=200,slnt=0.
+
+- Contour order differs in glyph 'guillemotleft': [0, 1] in wdth=125,wght=800,slnt=0, [1, 0] in wdth=75,wght=200,slnt=-10.
+
+- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=100,wght=400,slnt=0, [1, 0] in wdth=100,wght=400,slnt=-10.
+
+- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=100,wght=400,slnt=-10, [1, 0] in wdth=75,wght=400,slnt=0.
+
+- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=100,wght=800,slnt=0, [1, 0] in wdth=75,wght=400,slnt=-10.
+
+- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=100,wght=800,slnt=-10, [1, 0] in wdth=75,wght=200,slnt=0.
+
+- Contour order differs in glyph 'guillemotright': [0, 1] in wdth=125,wght=800,slnt=0, [1, 0] in wdth=75,wght=200,slnt=-10.
 </code></pre>
  [code: interpolation-issues]
 
@@ -785,14 +764,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, malayalam, canadian-aboriginal, tifinagh, coptic, hebrew, todhri, duployan, tai-le</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, math, hebrew, tai-le, syriac, tifinagh, canadian-aboriginal, coptic, duployan, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -811,12 +790,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, hatran, khmer, modi, tibetan, mandaic, zanabazar-square, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, sinhala, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, zanabazar-square, khmer, modi, tibetan, mandaic, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, sinhala, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, old-hungarian, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, phags-pa, syriac, hebrew, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, phags-pa, syriac, hebrew, thaana</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, hatran, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, old-hungarian, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, hebrew, syriac, arabic, thaana, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, hebrew, syriac, thaana, phags-pa</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -859,7 +838,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: nushu, phags-pa, chinese-hongkong, chinese-simplified, chinese-traditional, yi, japanese</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, chinese-traditional, chinese-simplified, japanese, nushu, phags-pa</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1024,29 +1003,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] ZalandoSans[wdth,wght].ttf</summary>
+<details><summary>[7] ZalandoSans[wdth,wght].ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
     <div>
@@ -1099,14 +1057,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, malayalam, canadian-aboriginal, tifinagh, coptic, hebrew, todhri, duployan, tai-le</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, math, hebrew, tai-le, syriac, tifinagh, canadian-aboriginal, coptic, duployan, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -1125,12 +1083,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, hatran, khmer, modi, tibetan, mandaic, zanabazar-square, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, sinhala, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, zanabazar-square, khmer, modi, tibetan, mandaic, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, sinhala, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, old-hungarian, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, phags-pa, syriac, hebrew, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, phags-pa, syriac, hebrew, thaana</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, hatran, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, old-hungarian, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, hebrew, syriac, arabic, thaana, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, hebrew, syriac, thaana, phags-pa</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -1173,7 +1131,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: nushu, phags-pa, chinese-hongkong, chinese-simplified, chinese-traditional, yi, japanese</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, chinese-traditional, chinese-simplified, japanese, nushu, phags-pa</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1338,29 +1296,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] ZalandoSansExpanded[wght].ttf</summary>
+<details><summary>[8] ZalandoSansExpanded[wght].ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
     <div>
@@ -1437,14 +1374,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, malayalam, canadian-aboriginal, tifinagh, coptic, hebrew, todhri, duployan, tai-le</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, math, hebrew, tai-le, syriac, tifinagh, canadian-aboriginal, coptic, duployan, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -1463,12 +1400,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, hatran, khmer, modi, tibetan, mandaic, zanabazar-square, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, sinhala, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, zanabazar-square, khmer, modi, tibetan, mandaic, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, sinhala, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, old-hungarian, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, phags-pa, syriac, hebrew, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, phags-pa, syriac, hebrew, thaana</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, hatran, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, old-hungarian, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, hebrew, syriac, arabic, thaana, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, hebrew, syriac, thaana, phags-pa</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -1511,7 +1448,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: nushu, phags-pa, chinese-hongkong, chinese-simplified, chinese-traditional, yi, japanese</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, chinese-traditional, chinese-simplified, japanese, nushu, phags-pa</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -1676,7 +1613,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] ZalandoSansExpanded-Italic[wght].ttf</summary>
+<details><summary>[9] ZalandoSansExpanded-Italic[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#name-family-and-style-max-length">name/family_and_style_max_length</a></summary>
@@ -1728,27 +1665,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
     <div>
 
@@ -1824,14 +1740,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, malayalam, canadian-aboriginal, tifinagh, coptic, hebrew, todhri, duployan, tai-le</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, math, hebrew, tai-le, syriac, tifinagh, canadian-aboriginal, coptic, duployan, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -1850,12 +1766,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, hatran, khmer, modi, tibetan, mandaic, zanabazar-square, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, sinhala, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, zanabazar-square, khmer, modi, tibetan, mandaic, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, sinhala, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, old-hungarian, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, phags-pa, syriac, hebrew, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, phags-pa, syriac, hebrew, thaana</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, hatran, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, old-hungarian, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, hebrew, syriac, arabic, thaana, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, hebrew, syriac, thaana, phags-pa</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -1898,7 +1814,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: nushu, phags-pa, chinese-hongkong, chinese-simplified, chinese-traditional, yi, japanese</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, chinese-traditional, chinese-simplified, japanese, nushu, phags-pa</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -2063,7 +1979,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] ZalandoSansCondensed[wght].ttf</summary>
+<details><summary>[8] ZalandoSansCondensed[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#name-family-and-style-max-length">name/family_and_style_max_length</a></summary>
@@ -2090,27 +2006,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
     <div>
 
@@ -2162,14 +2057,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, malayalam, canadian-aboriginal, tifinagh, coptic, hebrew, todhri, duployan, tai-le</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, math, hebrew, tai-le, syriac, tifinagh, canadian-aboriginal, coptic, duployan, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -2188,12 +2083,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, hatran, khmer, modi, tibetan, mandaic, zanabazar-square, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, sinhala, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, zanabazar-square, khmer, modi, tibetan, mandaic, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, sinhala, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, old-hungarian, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, phags-pa, syriac, hebrew, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, phags-pa, syriac, hebrew, thaana</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, hatran, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, old-hungarian, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, hebrew, syriac, arabic, thaana, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, hebrew, syriac, thaana, phags-pa</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -2236,7 +2131,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: nushu, phags-pa, chinese-hongkong, chinese-simplified, chinese-traditional, yi, japanese</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, chinese-traditional, chinese-simplified, japanese, nushu, phags-pa</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -2401,30 +2296,9 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] ZalandoSans-Italic[wdth,wght].ttf</summary>
+<details><summary>[7] ZalandoSans-Italic[wdth,wght].ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
     <div>
 
@@ -2476,14 +2350,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, malayalam, canadian-aboriginal, tifinagh, coptic, hebrew, todhri, duployan, tai-le</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, math, hebrew, tai-le, syriac, tifinagh, canadian-aboriginal, coptic, duployan, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -2502,12 +2376,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, hatran, khmer, modi, tibetan, mandaic, zanabazar-square, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, sinhala, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, zanabazar-square, khmer, modi, tibetan, mandaic, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, sinhala, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, old-hungarian, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, phags-pa, syriac, hebrew, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, phags-pa, syriac, hebrew, thaana</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, hatran, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, old-hungarian, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, hebrew, syriac, arabic, thaana, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, hebrew, syriac, thaana, phags-pa</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -2550,7 +2424,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: nushu, phags-pa, chinese-hongkong, chinese-simplified, chinese-traditional, yi, japanese</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, chinese-traditional, chinese-simplified, japanese, nushu, phags-pa</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -2715,7 +2589,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] ZalandoSansCondensed-Italic[wght].ttf</summary>
+<details><summary>[9] ZalandoSansCondensed-Italic[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Combined length of family and style must not exceed 32 characters. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#name-family-and-style-max-length">name/family_and_style_max_length</a></summary>
@@ -2767,27 +2641,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>First line in license file is:</p>
-<p>&quot;copyright 20** the my font project authors (<a href="https://github.com/googlefonts/googlefonts-project-template">https://github.com/googlefonts/googlefonts-project-template</a>)&quot;</p>
-<p>which does not match the expected format, similar to:</p>
-<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
- [code: bad-format]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
     <div>
 
@@ -2839,14 +2692,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, malayalam, canadian-aboriginal, tifinagh, coptic, hebrew, todhri, duployan, tai-le</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, math, hebrew, tai-le, syriac, tifinagh, canadian-aboriginal, coptic, duployan, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -2865,12 +2718,12 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, hatran, khmer, modi, tibetan, mandaic, zanabazar-square, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, sinhala, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: sundanese, chakma, syloti-nagri, syriac, siddham, mongolian, zanabazar-square, khmer, modi, tibetan, mandaic, kaithi, hanunoo, cham, thai, new-tai-lue, gurmukhi, thaana, masaram-gondi, buginese, mahajani, brahmi, psalter-pahlavi, javanese, takri, rejang, tifinagh, avestan, tagbanwa, gujarati, khudawadi, oriya, meetei-mayek, gunjala-gondi, duployan, warang-citi, tai-le, yi, sinhala, telugu, kharoshthi, balinese, myanmar, lao, newa, batak, tirhuta, buhid, hebrew, dogra, grantha, pahawh-hmong, tai-tham, tai-viet, saurashtra, sogdian, arabic, nko, phags-pa, bengali, tamil, lepcha, kayah-li, khojki, malayalam, old-hungarian, devanagari, hanifi-rohingya, manichaean, sharada, bhaiksuki, kannada, tagalog, limbu</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, phags-pa, syriac, hebrew, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, phags-pa, syriac, hebrew, thaana</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, hatran, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: avestan, manichaean, siddham, sogdian, tirhuta, batak, hebrew, gunjala-gondi, brahmi, pahawh-hmong, warang-citi, zanabazar-square, tai-tham, bengali, hanifi-rohingya, mandaic, sharada, sundanese, lepcha, telugu, buhid, phags-pa, sinhala, khojki, lao, tagalog, syriac, tibetan, khmer, limbu, tifinagh, bhaiksuki, kaithi, modi, chakma, duployan, meetei-mayek, psalter-pahlavi, dogra, rejang, tamil, thai, khudawadi, nko, kayah-li, masaram-gondi, myanmar, javanese, grantha, syloti-nagri, old-hungarian, mongolian, takri, arabic, malayalam, saurashtra, buginese, hanunoo, balinese, kharoshthi, newa, tagbanwa, tai-viet, new-tai-lue, tai-le, kannada, yi, oriya, gurmukhi, cham, gujarati, devanagari, thaana, mahajani</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, hebrew, syriac, arabic, thaana, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, hebrew, syriac, thaana, phags-pa</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: try adding math</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
@@ -2913,7 +2766,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: nushu, phags-pa, chinese-hongkong, chinese-simplified, chinese-traditional, yi, japanese</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-hongkong, yi, chinese-traditional, chinese-simplified, japanese, nushu, phags-pa</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -3265,7 +3118,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 23 | 53 | 595 | 42 | 837 | 0 | 
+| 0 | 0 | 16 | 53 | 595 | 42 | 844 | 0 | 
 | 0% | 0% | 1% | 3% | 38% | 3% | 54% | 0% | 
 
 
