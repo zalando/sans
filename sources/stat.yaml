@@ -1,0 +1,42 @@
+- name: width
+  tag: wdth
+  values:
+  - name: Condensed
+    value: 75
+  - name: SemiCondensed
+    value: 87.5
+  - name: Normal
+    value: 100
+    flags: 2
+  - name: SemiExpanded
+    value: 112.5
+  - name: Expanded
+    value: 125
+- name: weight
+  tag: wght
+  values:
+  - name: ExtraLight
+    value: 200
+  - name: Light
+    value: 300
+  - name: Regular
+    value: 400
+    flags: 2
+    linkedValue: 700
+  - name: Medium
+    value: 500
+  - name: SemiBold
+    value: 600
+  - name: Bold
+    value: 700
+  - name: ExtraBold
+    value: 800
+- name: Slant
+  tag: slnt
+  values:
+  - name: Roman
+    value: 0
+    flags: 2
+    linkedValue: -10
+  - name: Italic
+    value: -10

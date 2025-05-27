@@ -1,8 +1,61 @@
 sources:
   - ZalandoSans.glyphs
 familyName: "Zalando Sans"
-buildStatic: false
+buildStatic: true
 buildWebfont: false
 autohintTTF: true
 autohintOTF: false
 splitItalic: true
+recipeProvider: googlefonts
+recipe:
+# Creating a family with 3 axes
+  ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf:
+    - source: ZalandoSans.glyphs
+    - operation: exec
+      exe: fontmake
+      args: -g ZalandoSans.glyphs --family-name 'Zalando Sans' -o variable  --output-path ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --src stat.yaml --inplace
+# Creating a Condensed VF and splitting the slant axis
+  ../fonts/variable/ZalandoSansCondensed-Italic[wght].ttf:
+    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: subspace
+      axes: wdth=75 slnt=-10
+      args: --update-name-table
+    - operation: rename
+      name: Zalando Sans Condensed
+    - operation: fix
+    - operation: buildStat
+  ../fonts/variable/ZalandoSansCondensed[wght].ttf:
+    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: subspace
+      axes: wdth=75 slnt=0
+      args: --update-name-table
+    - operation: rename
+      name: Zalando Sans Condensed
+    - operation: fix
+    - postprocess: buildStat
+      needs: ../fonts/variable/ZalandoSansCondensed-Italic[wght].ttf
+# Creating an Expanded VF and splitting the slant axis
+  ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf:
+    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: subspace
+      axes: wdth=125 slnt=-10
+      args: --update-name-table
+    - operation: rename
+      name: Zalando Sans Expanded
+    - operation: fix
+    - operation: buildStat
+  ../fonts/variable/ZalandoSansExpanded[wght].ttf:
+    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: subspace
+      axes: wdth=125 slnt=0
+      args: --update-name-table
+    - operation: rename
+      name: Zalando Sans Expanded
+    - operation: fix
+    - postprocess: buildStat
+      needs: ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf
+    
+

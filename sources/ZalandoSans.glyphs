@@ -1,5 +1,5 @@
 {
-.appVersion = "3413";
+.appVersion = "3414";
 .formatVersion = 3;
 axes = (
 {
@@ -248587,6 +248587,724 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = ExtraBold;
 name = "ExtraBold Italic";
+weightClass = 800;
+},
+{
+axesValues = (
+75,
+69,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"89792DEA-715D-4C6B-9843-C33DBACDCF53" = 1;
+};
+name = "Condensed ExtraLight";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndExtraLight";
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+75,
+87,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"89792DEA-715D-4C6B-9843-C33DBACDCF53" = 0.41935;
+"F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.58065;
+};
+name = "Condensed Light";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndLight";
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+75,
+100,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 1;
+};
+name = Condensed;
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-Cnd";
+}
+);
+},
+{
+axesValues = (
+75,
+120,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.83607;
+"F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.16393;
+};
+name = "Condensed Medium";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndMedium";
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+75,
+148,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.60656;
+"F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.39344;
+};
+name = "Condensed SemiBold";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndSemiBold";
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+75,
+174,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.39344;
+"F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.60656;
+};
+isBold = 1;
+linkStyle = Condensed;
+name = "Condensed Bold";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndBold";
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+75,
+222,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 1;
+};
+name = "Condensed ExtraBold";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndExtraBold";
+}
+);
+weightClass = 800;
+},
+{
+axesValues = (
+75,
+69,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"3A742E95-6392-47DA-98D0-C770A5889573" = 1;
+};
+isItalic = 1;
+linkStyle = "Condensed ExtraLight";
+name = "Condensed ExtraLight Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndExtraLightIt";
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+75,
+87,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"0A603DC7-0F9F-4E29-AC1C-80B527B5555F" = 0.58065;
+"3A742E95-6392-47DA-98D0-C770A5889573" = 0.41935;
+};
+isItalic = 1;
+linkStyle = "Condensed Light";
+name = "Condensed Light Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndLightIt";
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+75,
+100,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"0A603DC7-0F9F-4E29-AC1C-80B527B5555F" = 1;
+};
+isItalic = 1;
+linkStyle = Condensed;
+name = "Condensed Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndIt";
+}
+);
+},
+{
+axesValues = (
+75,
+120,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"0A603DC7-0F9F-4E29-AC1C-80B527B5555F" = 0.83607;
+"5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 0.16393;
+};
+isItalic = 1;
+linkStyle = "Condensed Medium";
+name = "Condensed Medium Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndMediumIt";
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+75,
+148,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"0A603DC7-0F9F-4E29-AC1C-80B527B5555F" = 0.60656;
+"5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 0.39344;
+};
+isItalic = 1;
+linkStyle = "Condensed SemiBold";
+name = "Condensed SemiBold Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndSemiBoldIt";
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+75,
+174,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"0A603DC7-0F9F-4E29-AC1C-80B527B5555F" = 0.39344;
+"5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 0.60656;
+};
+isBold = 1;
+isItalic = 1;
+linkStyle = Condensed;
+name = "Condensed Bold Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndBoldIt";
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+75,
+222,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 1;
+};
+isItalic = 1;
+linkStyle = "Condensed ExtraBold";
+name = "Condensed ExtraBold Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-CndExtraBoldIt";
+}
+);
+weightClass = 800;
+},
+{
+axesValues = (
+125,
+69,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+m007 = 1;
+};
+name = "Expanded ExtraLight";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpExtraLight";
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+125,
+87,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.58065;
+m007 = 0.41935;
+};
+name = "Expanded Light";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpLight";
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+125,
+100,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 1;
+};
+name = Expanded;
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-Exp";
+}
+);
+},
+{
+axesValues = (
+125,
+120,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.83607;
+"CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.16393;
+};
+name = "Expanded Medium";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpMedium";
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+125,
+148,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.60656;
+"CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.39344;
+};
+name = "Expanded SemiBold";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpSemiBold";
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+125,
+174,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.39344;
+"CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.60656;
+};
+isBold = 1;
+linkStyle = Expanded;
+name = "Expanded Bold";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpBold";
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+125,
+222,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"CEA8704A-49A9-4D73-A586-1E9554ACC001" = 1;
+};
+name = "Expanded ExtraBold";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpExtraBold";
+}
+);
+weightClass = 800;
+},
+{
+axesValues = (
+125,
+69,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"7B4F6316-DEA5-4C61-853A-FCC6E55FB2E9" = 1;
+};
+isItalic = 1;
+linkStyle = "Expanded ExtraLight";
+name = "Expanded ExtraLight Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpExtraLightIt";
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+125,
+87,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"7B4F6316-DEA5-4C61-853A-FCC6E55FB2E9" = 0.41935;
+"FF0E7F91-EBB7-4227-9826-320229507C52" = 0.58065;
+};
+isItalic = 1;
+linkStyle = "Expanded Light";
+name = "Expanded Light Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpLightIt";
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+125,
+100,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"FF0E7F91-EBB7-4227-9826-320229507C52" = 1;
+};
+isItalic = 1;
+linkStyle = Expanded;
+name = "Expanded Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpIt";
+}
+);
+},
+{
+axesValues = (
+125,
+120,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 0.16393;
+"FF0E7F91-EBB7-4227-9826-320229507C52" = 0.83607;
+};
+isItalic = 1;
+linkStyle = "Expanded Medium";
+name = "Expanded Medium Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpMediumIt";
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+125,
+148,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 0.39344;
+"FF0E7F91-EBB7-4227-9826-320229507C52" = 0.60656;
+};
+isItalic = 1;
+linkStyle = "Expanded SemiBold";
+name = "Expanded SemiBold Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpSemiBoldIt";
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+125,
+174,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 0.60656;
+"FF0E7F91-EBB7-4227-9826-320229507C52" = 0.39344;
+};
+isBold = 1;
+isItalic = 1;
+linkStyle = Expanded;
+name = "Expanded Bold Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpBoldIt";
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+125,
+222,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+}
+);
+instanceInterpolations = {
+"974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 1;
+};
+isItalic = 1;
+linkStyle = "Expanded ExtraBold";
+name = "Expanded ExtraBold Italic";
+properties = (
+{
+key = postscriptFontName;
+value = "ZalandoSans-ExpExtraBoldIt";
+}
+);
 weightClass = 800;
 }
 );
