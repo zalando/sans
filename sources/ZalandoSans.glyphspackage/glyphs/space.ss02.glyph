@@ -273,4 +273,5 @@ nodes = (
 width = 276;
 }
 );
+subCategory = Space;
 }

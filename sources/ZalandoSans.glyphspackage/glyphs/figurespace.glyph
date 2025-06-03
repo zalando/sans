@@ -76,5 +76,6 @@ width = 878;
 }
 );
 metricWidth = zero.tf;
+subCategory = Space;
 unicode = 8199;
 }

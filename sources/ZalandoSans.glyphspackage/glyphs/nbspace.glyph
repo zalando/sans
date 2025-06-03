@@ -76,5 +76,6 @@ width = 276;
 }
 );
 metricWidth = space;
+subCategory = Space;
 unicode = 160;
 }

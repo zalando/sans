@@ -76,5 +76,6 @@ width = 324;
 }
 );
 metricWidth = period;
+subCategory = Space;
 unicode = 8200;
 }
