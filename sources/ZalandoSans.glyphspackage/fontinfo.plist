@@ -106,6 +106,7 @@ feature case;
 feature ss01;
 feature ss02;
 feature ss03;
+feature calt;
 ";
 tag = aalt;
 },
@@ -136,6 +137,8 @@ lookup ccmp_latn_1 {
 	lookupflag 0;
 	sub fi by f i;
 	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
 } ccmp_latn_1;
 
 script latn;
@@ -173,8 +176,8 @@ lookup locl_latn_1;
 script latn;
 language CAT;
 lookup locl_latn_2 {
-	sub  l' periodcentered' l by ldot;
-	sub  L' periodcentered' L by Ldot;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_2;
 ";
 tag = locl;
@@ -311,7 +314,8 @@ tag = tnum;
 },
 {
 automatic = 1;
-code = "sub dieresiscomb by dieresiscomb.case;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+sub dieresiscomb by dieresiscomb.case;
 sub dotaccentcomb by dotaccentcomb.case;
 sub ringcomb by ringcomb.case;
 sub slashlongcomb by slashlongcomb.case;
@@ -321,8 +325,6 @@ tag = case;
 {
 automatic = 1;
 code = "lookupflag IgnoreMarks;
-sub space X space by space_X_space.liga;
-sub space x space by space_x_space.liga;
 sub f i by fi;
 sub f l by fl;
 ";
@@ -377,6 +379,17 @@ value = "Horizontal arrows aligned to cap height";
 }
 );
 tag = ss03;
+},
+{
+code = "@number=[$[category like 'Number']];
+@space=[$[subCategory like 'Space']];
+
+lookup sub_multiply {
+	sub @number [x X]' @number by multiply;
+	sub @number @space [x X]' @space @number by multiply;
+} sub_multiply;
+";
+tag = calt;
 }
 );
 fontMaster = (

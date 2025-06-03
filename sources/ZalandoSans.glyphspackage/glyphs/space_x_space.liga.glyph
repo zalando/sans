@@ -1,5 +1,6 @@
 {
 color = 6;
+export = 0;
 glyphname = space_x_space.liga;
 layers = (
 {
