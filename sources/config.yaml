@@ -4,7 +4,7 @@ familyName: "Zalando Sans"
 buildStatic: true
 buildWebfont: false
 autohintTTF: true
-autohintOTF: false
+autohintOTF: true
 splitItalic: true
 recipeProvider: googlefonts
 recipe:

@@ -475,9 +475,10 @@ pos = -190;
 );
 name = "Condensed Light";
 stemValues = (
-47,
-49,
-57,
+35,
+50,
+50,
+42,
 60
 );
 userData = {
@@ -568,10 +569,11 @@ pos = -190;
 );
 name = Condensed;
 stemValues = (
-65,
-68,
-82,
-86
+45,
+67,
+67,
+60,
+84
 );
 userData = {
 GSCornerRadius = 55;
@@ -659,9 +661,10 @@ pos = -190;
 );
 name = "Condensed ExtraBold";
 stemValues = (
-136,
-153,
-190,
+90,
+120,
+150,
+140,
 200
 );
 },
@@ -747,10 +750,11 @@ pos = -190;
 );
 name = Light;
 stemValues = (
-48,
-51,
-59,
-63
+35,
+50,
+50,
+45,
+60
 );
 userData = {
 GSCornerRadius = 100;
@@ -839,10 +843,11 @@ pos = -190;
 );
 name = Regular;
 stemValues = (
-75,
-79,
-92,
-94
+52,
+80,
+80,
+66,
+90
 );
 userData = {
 GSCornerRadius = 109;
@@ -930,10 +935,11 @@ pos = -190;
 );
 name = ExtraBold;
 stemValues = (
-137,
-159,
-192,
-204
+100,
+130,
+162,
+120,
+200
 );
 },
 {
@@ -1018,10 +1024,11 @@ pos = -190;
 );
 name = "Expanded Light";
 stemValues = (
-53,
-57,
-68,
-71
+42,
+55,
+55,
+52,
+70
 );
 userData = {
 GSCornerRadius = 80;
@@ -1109,10 +1116,11 @@ pos = -190;
 );
 name = Expanded;
 stemValues = (
-73,
-80,
-93,
-102
+55,
+78,
+78,
+70,
+100
 );
 userData = {
 GSCornerRadius = 85;
@@ -1200,10 +1208,11 @@ pos = -190;
 );
 name = "Expanded ExtraBold";
 stemValues = (
-148,
-167,
-215,
-226
+100,
+136,
+168,
+140,
+220
 );
 },
 {
@@ -1289,9 +1298,10 @@ pos = 10;
 );
 name = "Condensed Light Italic";
 stemValues = (
-47,
-49,
-57,
+35,
+50,
+50,
+42,
 60
 );
 userData = {
@@ -1383,10 +1393,11 @@ pos = 10;
 );
 name = "Condensed Italic";
 stemValues = (
-64,
-69,
-82,
-86
+45,
+67,
+67,
+60,
+84
 );
 },
 {
@@ -1472,9 +1483,10 @@ pos = 10;
 );
 name = "Condensed ExtraBold Italic";
 stemValues = (
-136,
-153,
-190,
+90,
+120,
+150,
+140,
 200
 );
 },
@@ -1561,9 +1573,10 @@ pos = 10;
 );
 name = "Light Italic";
 stemValues = (
-51,
-48,
-62,
+35,
+50,
+50,
+45,
 60
 );
 userData = {
@@ -1654,9 +1667,10 @@ pos = 10;
 );
 name = Italic;
 stemValues = (
-72,
-73,
-86,
+52,
+80,
+80,
+66,
 90
 );
 },
@@ -1743,10 +1757,11 @@ pos = 10;
 );
 name = "ExtraBold Italic";
 stemValues = (
-153,
-169,
-192,
-205
+100,
+130,
+162,
+120,
+200
 );
 },
 {
@@ -1832,10 +1847,11 @@ pos = 10;
 );
 name = "Expanded Light Italic";
 stemValues = (
-53,
-57,
-68,
-71
+42,
+55,
+55,
+52,
+70
 );
 userData = {
 GSCornerRadius = 75;
@@ -1926,10 +1942,11 @@ pos = 10;
 );
 name = "Expanded Italic";
 stemValues = (
-71,
-79,
-97,
-102
+55,
+78,
+78,
+70,
+100
 );
 userData = {
 GSCornerRadius = 15;
@@ -2018,10 +2035,11 @@ pos = 10;
 );
 name = "Expanded ExtraBold Italic";
 stemValues = (
-148,
-167,
-215,
-226
+100,
+136,
+168,
+140,
+220
 );
 }
 );
@@ -29974,6 +29992,10 @@ name = hStem0;
 {
 horizontal = 1;
 name = hStem1;
+},
+{
+horizontal = 1;
+name = hStem2;
 },
 {
 name = vStem0;
