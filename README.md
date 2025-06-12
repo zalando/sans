@@ -13,8 +13,6 @@
 
 Zalando’s journey has been remarkable—transforming from a start-up into one of Europe’s leading online fashion platforms. As the market continues to evolve at pace, Zalando recognizes the need to evolve its business and brand to accelerate growth and stay at the forefront of the fashion and lifestyle landscape.
 
-![Video](documentation/00_brand.gif)
-
 ### Visual Identity
 
 ![Sample Image](documentation/01_brand.png)  
