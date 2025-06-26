@@ -31,6 +31,8 @@
     value: 700
   - name: ExtraBold
     value: 800
+  - name: Black
+    value: 900
 - name: Slant
   tag: slnt
   values:
