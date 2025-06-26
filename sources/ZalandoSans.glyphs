@@ -234469,12 +234469,6 @@ instanceInterpolations = {
 "89792DEA-715D-4C6B-9843-C33DBACDCF53" = 1;
 };
 name = "Condensed ExtraLight";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndExtraLight";
-}
-);
 weightClass = 200;
 widthClass = 3;
 },
@@ -234499,12 +234493,6 @@ instanceInterpolations = {
 "F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.58065;
 };
 name = "Condensed Light";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndLight";
-}
-);
 weightClass = 300;
 widthClass = 3;
 },
@@ -234528,12 +234516,6 @@ instanceInterpolations = {
 "F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 1;
 };
 name = Condensed;
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-Cnd";
-}
-);
 widthClass = 3;
 },
 {
@@ -234557,12 +234539,6 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.16393;
 };
 name = "Condensed Medium";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndMedium";
-}
-);
 weightClass = 500;
 widthClass = 3;
 },
@@ -234587,12 +234563,6 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.39344;
 };
 name = "Condensed SemiBold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndSemiBold";
-}
-);
 weightClass = 600;
 widthClass = 3;
 },
@@ -234619,12 +234589,6 @@ instanceInterpolations = {
 isBold = 1;
 linkStyle = Condensed;
 name = "Condensed Bold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndBold";
-}
-);
 weightClass = 700;
 widthClass = 3;
 },
@@ -234649,12 +234613,6 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.80328;
 };
 name = "Condensed ExtraBold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndExtraBold";
-}
-);
 weightClass = 800;
 widthClass = 3;
 },
@@ -234678,12 +234636,6 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 1;
 };
 name = "Condensed Black";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndBlack";
-}
-);
 weightClass = 900;
 widthClass = 3;
 },
@@ -234713,12 +234665,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed ExtraLight";
 name = "Condensed ExtraLight Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndExtraLightIt";
-}
-);
 weightClass = 200;
 widthClass = 3;
 },
@@ -234749,12 +234695,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed Light";
 name = "Condensed Light Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndLightIt";
-}
-);
 weightClass = 300;
 widthClass = 3;
 },
@@ -234784,12 +234724,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Condensed;
 name = "Condensed Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndIt";
-}
-);
 widthClass = 3;
 },
 {
@@ -234819,12 +234753,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed Medium";
 name = "Condensed Medium Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndMediumIt";
-}
-);
 weightClass = 500;
 widthClass = 3;
 },
@@ -234855,12 +234783,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed SemiBold";
 name = "Condensed SemiBold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndSemiBoldIt";
-}
-);
 weightClass = 600;
 widthClass = 3;
 },
@@ -234892,12 +234814,6 @@ isBold = 1;
 isItalic = 1;
 linkStyle = Condensed;
 name = "Condensed Bold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndBoldIt";
-}
-);
 weightClass = 700;
 widthClass = 3;
 },
@@ -234928,12 +234844,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed ExtraBold";
 name = "Condensed ExtraBold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndExtraBoldIt";
-}
-);
 weightClass = 800;
 widthClass = 3;
 },
@@ -234963,12 +234873,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed Black";
 name = "Condensed Black Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndBlackIt";
-}
-);
 weightClass = 900;
 widthClass = 3;
 },
@@ -234992,12 +234896,6 @@ instanceInterpolations = {
 m007 = 1;
 };
 name = "Expanded ExtraLight";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpExtraLight";
-}
-);
 weightClass = 200;
 widthClass = 7;
 },
@@ -235022,12 +234920,6 @@ instanceInterpolations = {
 m007 = 0.41935;
 };
 name = "Expanded Light";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpLight";
-}
-);
 weightClass = 300;
 widthClass = 7;
 },
@@ -235051,12 +234943,6 @@ instanceInterpolations = {
 "7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 1;
 };
 name = Expanded;
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-Exp";
-}
-);
 widthClass = 7;
 },
 {
@@ -235080,12 +234966,6 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.16393;
 };
 name = "Expanded Medium";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpMedium";
-}
-);
 weightClass = 500;
 widthClass = 7;
 },
@@ -235110,12 +234990,6 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.39344;
 };
 name = "Expanded SemiBold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpSemiBold";
-}
-);
 weightClass = 600;
 widthClass = 7;
 },
@@ -235142,12 +235016,6 @@ instanceInterpolations = {
 isBold = 1;
 linkStyle = Expanded;
 name = "Expanded Bold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpBold";
-}
-);
 weightClass = 700;
 widthClass = 7;
 },
@@ -235172,12 +235040,6 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.80328;
 };
 name = "Expanded ExtraBold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpExtraBold";
-}
-);
 weightClass = 800;
 widthClass = 7;
 },
@@ -235201,12 +235063,6 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 1;
 };
 name = "Expanded Black";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpBlack";
-}
-);
 weightClass = 900;
 widthClass = 7;
 },
@@ -235236,12 +235092,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded ExtraLight";
 name = "Expanded ExtraLight Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpExtraLightIt";
-}
-);
 weightClass = 200;
 widthClass = 7;
 },
@@ -235272,12 +235122,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded Light";
 name = "Expanded Light Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpLightIt";
-}
-);
 weightClass = 300;
 widthClass = 7;
 },
@@ -235307,12 +235151,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Expanded;
 name = "Expanded Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpIt";
-}
-);
 widthClass = 7;
 },
 {
@@ -235342,12 +235180,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded Medium";
 name = "Expanded Medium Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpMediumIt";
-}
-);
 weightClass = 500;
 widthClass = 7;
 },
@@ -235378,12 +235210,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded SemiBold";
 name = "Expanded SemiBold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpSemiBoldIt";
-}
-);
 weightClass = 600;
 widthClass = 7;
 },
@@ -235415,12 +235241,6 @@ isBold = 1;
 isItalic = 1;
 linkStyle = Expanded;
 name = "Expanded Bold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpBoldIt";
-}
-);
 weightClass = 700;
 widthClass = 7;
 },
@@ -235451,12 +235271,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded ExtraBold";
 name = "Expanded ExtraBold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpExtraBoldIt";
-}
-);
 weightClass = 800;
 widthClass = 7;
 },
@@ -235486,12 +235300,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded Black";
 name = "Expanded Black Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpBlackIt";
-}
-);
 weightClass = 900;
 widthClass = 7;
 }
