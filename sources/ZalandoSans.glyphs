@@ -60,7 +60,8 @@ wght = {
 600 = 148;
 633 = 157;
 700 = 174;
-800 = 222;
+800 = 198;
+900 = 222;
 };
 };
 },
@@ -659,7 +660,7 @@ pos = -190;
 {
 }
 );
-name = "Condensed ExtraBold";
+name = "Condensed Black";
 stemValues = (
 90,
 120,
@@ -933,7 +934,7 @@ pos = -190;
 {
 }
 );
-name = ExtraBold;
+name = Black;
 stemValues = (
 100,
 130,
@@ -1206,7 +1207,7 @@ pos = -190;
 {
 }
 );
-name = "Expanded ExtraBold";
+name = "Expanded Black";
 stemValues = (
 100,
 136,
@@ -1481,7 +1482,7 @@ pos = -190;
 pos = 10;
 }
 );
-name = "Condensed ExtraBold Italic";
+name = "Condensed Black Italic";
 stemValues = (
 90,
 120,
@@ -1755,7 +1756,7 @@ pos = -190;
 pos = 10;
 }
 );
-name = "ExtraBold Italic";
+name = "Black Italic";
 stemValues = (
 100,
 130,
@@ -2033,7 +2034,7 @@ pos = -190;
 pos = 10;
 }
 );
-name = "Expanded ExtraBold Italic";
+name = "Expanded Black Italic";
 stemValues = (
 100,
 136,
@@ -16216,7 +16217,7 @@ color = 6;
 glyphname = H;
 kernLeft = H;
 kernRight = H;
-lastChange = "2025-06-10 10:02:37 +0000";
+lastChange = "2025-06-26 14:25:27 +0000";
 layers = (
 {
 anchors = (
@@ -234263,11 +234264,12 @@ weightClass = 700;
 {
 axesValues = (
 100,
-222,
+198,
 0
 );
 instanceInterpolations = {
-"3E78BF7E-2ACA-4E8F-B7F7-8733FDFDD1D6" = 1;
+"3E78BF7E-2ACA-4E8F-B7F7-8733FDFDD1D6" = 0.80328;
+"FEA946D2-303E-4050-8628-E645DE71E218" = 0.19672;
 };
 name = ExtraBold;
 weightClass = 800;
@@ -234275,8 +234277,26 @@ weightClass = 800;
 {
 axesValues = (
 100,
+222,
+0
+);
+instanceInterpolations = {
+"3E78BF7E-2ACA-4E8F-B7F7-8733FDFDD1D6" = 1;
+};
+name = Black;
+weightClass = 900;
+},
+{
+axesValues = (
+100,
 69,
 -10
+);
+customParameters = (
+{
+name = italicAngle;
+value = "10";
+}
 );
 instanceInterpolations = {
 "38E57698-3E0D-47EE-AD12-065B63128021" = 1;
@@ -234291,6 +234311,12 @@ axesValues = (
 100,
 87,
 -10
+);
+customParameters = (
+{
+name = italicAngle;
+value = "10";
+}
 );
 instanceInterpolations = {
 "38E57698-3E0D-47EE-AD12-065B63128021" = 0.41935;
@@ -234307,6 +234333,12 @@ axesValues = (
 100,
 -10
 );
+customParameters = (
+{
+name = italicAngle;
+value = "10";
+}
+);
 instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 1;
 };
@@ -234318,6 +234350,12 @@ axesValues = (
 100,
 120,
 -10
+);
+customParameters = (
+{
+name = italicAngle;
+value = "10";
+}
 );
 instanceInterpolations = {
 "406F15BE-EF31-460D-8EE8-85AD72A74E98" = 0.16393;
@@ -234334,6 +234372,12 @@ axesValues = (
 148,
 -10
 );
+customParameters = (
+{
+name = italicAngle;
+value = "10";
+}
+);
 instanceInterpolations = {
 "406F15BE-EF31-460D-8EE8-85AD72A74E98" = 0.39344;
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.60656;
@@ -234349,6 +234393,12 @@ axesValues = (
 174,
 -10
 );
+customParameters = (
+{
+name = italicAngle;
+value = "10";
+}
+);
 instanceInterpolations = {
 "406F15BE-EF31-460D-8EE8-85AD72A74E98" = 0.60656;
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.39344;
@@ -234361,16 +234411,43 @@ weightClass = 700;
 {
 axesValues = (
 100,
-222,
+198,
 -10
 );
+customParameters = (
+{
+name = italicAngle;
+value = "10";
+}
+);
 instanceInterpolations = {
-"406F15BE-EF31-460D-8EE8-85AD72A74E98" = 1;
+"406F15BE-EF31-460D-8EE8-85AD72A74E98" = 0.80328;
+"DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.19672;
 };
 isItalic = 1;
 linkStyle = ExtraBold;
 name = "ExtraBold Italic";
 weightClass = 800;
+},
+{
+axesValues = (
+100,
+222,
+-10
+);
+customParameters = (
+{
+name = italicAngle;
+value = "10";
+}
+);
+instanceInterpolations = {
+"406F15BE-EF31-460D-8EE8-85AD72A74E98" = 1;
+};
+isItalic = 1;
+linkStyle = Black;
+name = "Black Italic";
+weightClass = 900;
 },
 {
 axesValues = (
@@ -234382,19 +234459,18 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndExtraLight";
 }
 );
 instanceInterpolations = {
 "89792DEA-715D-4C6B-9843-C33DBACDCF53" = 1;
 };
 name = "Condensed ExtraLight";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndExtraLight";
-}
-);
 weightClass = 200;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234406,6 +234482,10 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndLight";
 }
 );
 instanceInterpolations = {
@@ -234413,13 +234493,8 @@ instanceInterpolations = {
 "F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.58065;
 };
 name = "Condensed Light";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndLight";
-}
-);
 weightClass = 300;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234431,18 +234506,17 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-Cnd";
 }
 );
 instanceInterpolations = {
 "F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 1;
 };
 name = Condensed;
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-Cnd";
-}
-);
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234454,6 +234528,10 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndMedium";
 }
 );
 instanceInterpolations = {
@@ -234461,13 +234539,8 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.16393;
 };
 name = "Condensed Medium";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndMedium";
-}
-);
 weightClass = 500;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234479,6 +234552,10 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndSemiBold";
 }
 );
 instanceInterpolations = {
@@ -234486,13 +234563,8 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.39344;
 };
 name = "Condensed SemiBold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndSemiBold";
-}
-);
 weightClass = 600;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234504,6 +234576,10 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndBold";
 }
 );
 instanceInterpolations = {
@@ -234513,13 +234589,32 @@ instanceInterpolations = {
 isBold = 1;
 linkStyle = Condensed;
 name = "Condensed Bold";
-properties = (
+weightClass = 700;
+widthClass = 3;
+},
 {
-key = postscriptFontName;
-value = "ZalandoSans-CndBold";
+axesValues = (
+75,
+198,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndExtraBold";
 }
 );
-weightClass = 700;
+instanceInterpolations = {
+"F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.19672;
+"F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.80328;
+};
+name = "Condensed ExtraBold";
+weightClass = 800;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234531,19 +234626,18 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndBlack";
 }
 );
 instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 1;
 };
-name = "Condensed ExtraBold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndExtraBold";
-}
-);
-weightClass = 800;
+name = "Condensed Black";
+weightClass = 900;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234555,6 +234649,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndExtraLightIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234563,13 +234665,8 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed ExtraLight";
 name = "Condensed ExtraLight Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndExtraLightIt";
-}
-);
 weightClass = 200;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234581,6 +234678,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndLightIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234590,13 +234695,8 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed Light";
 name = "Condensed Light Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndLightIt";
-}
-);
 weightClass = 300;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234608,6 +234708,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234616,12 +234724,7 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Condensed;
 name = "Condensed Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndIt";
-}
-);
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234633,6 +234736,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndMediumIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234642,13 +234753,8 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed Medium";
 name = "Condensed Medium Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndMediumIt";
-}
-);
 weightClass = 500;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234660,6 +234766,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndSemiBoldIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234669,13 +234783,8 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Condensed SemiBold";
 name = "Condensed SemiBold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndSemiBoldIt";
-}
-);
 weightClass = 600;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234687,6 +234796,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndBoldIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234697,13 +234814,38 @@ isBold = 1;
 isItalic = 1;
 linkStyle = Condensed;
 name = "Condensed Bold Italic";
-properties = (
+weightClass = 700;
+widthClass = 3;
+},
 {
-key = postscriptFontName;
-value = "ZalandoSans-CndBoldIt";
+axesValues = (
+75,
+198,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndExtraBoldIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
-weightClass = 700;
+instanceInterpolations = {
+"0A603DC7-0F9F-4E29-AC1C-80B527B5555F" = 0.19672;
+"5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 0.80328;
+};
+isItalic = 1;
+linkStyle = "Condensed ExtraBold";
+name = "Condensed ExtraBold Italic";
+weightClass = 800;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234715,21 +234857,24 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-CndBlackIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
 "5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 1;
 };
 isItalic = 1;
-linkStyle = "Condensed ExtraBold";
-name = "Condensed ExtraBold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-CndExtraBoldIt";
-}
-);
-weightClass = 800;
+linkStyle = "Condensed Black";
+name = "Condensed Black Italic";
+weightClass = 900;
+widthClass = 3;
 },
 {
 axesValues = (
@@ -234741,19 +234886,18 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpExtraLight";
 }
 );
 instanceInterpolations = {
 m007 = 1;
 };
 name = "Expanded ExtraLight";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpExtraLight";
-}
-);
 weightClass = 200;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234765,6 +234909,10 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpLight";
 }
 );
 instanceInterpolations = {
@@ -234772,13 +234920,8 @@ instanceInterpolations = {
 m007 = 0.41935;
 };
 name = "Expanded Light";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpLight";
-}
-);
 weightClass = 300;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234790,18 +234933,17 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-Exp";
 }
 );
 instanceInterpolations = {
 "7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 1;
 };
 name = Expanded;
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-Exp";
-}
-);
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234813,6 +234955,10 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpMedium";
 }
 );
 instanceInterpolations = {
@@ -234820,13 +234966,8 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.16393;
 };
 name = "Expanded Medium";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpMedium";
-}
-);
 weightClass = 500;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234838,6 +234979,10 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpSemiBold";
 }
 );
 instanceInterpolations = {
@@ -234845,13 +234990,8 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.39344;
 };
 name = "Expanded SemiBold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpSemiBold";
-}
-);
 weightClass = 600;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234863,6 +235003,10 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpBold";
 }
 );
 instanceInterpolations = {
@@ -234872,13 +235016,32 @@ instanceInterpolations = {
 isBold = 1;
 linkStyle = Expanded;
 name = "Expanded Bold";
-properties = (
+weightClass = 700;
+widthClass = 7;
+},
 {
-key = postscriptFontName;
-value = "ZalandoSans-ExpBold";
+axesValues = (
+125,
+198,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpExtraBold";
 }
 );
-weightClass = 700;
+instanceInterpolations = {
+"7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.19672;
+"CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.80328;
+};
+name = "Expanded ExtraBold";
+weightClass = 800;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234890,19 +235053,18 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpBlack";
 }
 );
 instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 1;
 };
-name = "Expanded ExtraBold";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpExtraBold";
-}
-);
-weightClass = 800;
+name = "Expanded Black";
+weightClass = 900;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234914,6 +235076,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpExtraLightIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234922,13 +235092,8 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded ExtraLight";
 name = "Expanded ExtraLight Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpExtraLightIt";
-}
-);
 weightClass = 200;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234940,6 +235105,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpLightIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234949,13 +235122,8 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded Light";
 name = "Expanded Light Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpLightIt";
-}
-);
 weightClass = 300;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234967,6 +235135,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -234975,12 +235151,7 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Expanded;
 name = "Expanded Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpIt";
-}
-);
+widthClass = 7;
 },
 {
 axesValues = (
@@ -234992,6 +235163,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpMediumIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -235001,13 +235180,8 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded Medium";
 name = "Expanded Medium Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpMediumIt";
-}
-);
 weightClass = 500;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -235019,6 +235193,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpSemiBoldIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -235028,13 +235210,8 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = "Expanded SemiBold";
 name = "Expanded SemiBold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpSemiBoldIt";
-}
-);
 weightClass = 600;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -235046,6 +235223,14 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpBoldIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
@@ -235056,13 +235241,38 @@ isBold = 1;
 isItalic = 1;
 linkStyle = Expanded;
 name = "Expanded Bold Italic";
-properties = (
+weightClass = 700;
+widthClass = 7;
+},
 {
-key = postscriptFontName;
-value = "ZalandoSans-ExpBoldIt";
+axesValues = (
+125,
+198,
+-10
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpExtraBoldIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
-weightClass = 700;
+instanceInterpolations = {
+"974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 0.80328;
+"FF0E7F91-EBB7-4227-9826-320229507C52" = 0.19672;
+};
+isItalic = 1;
+linkStyle = "Expanded ExtraBold";
+name = "Expanded ExtraBold Italic";
+weightClass = 800;
+widthClass = 7;
 },
 {
 axesValues = (
@@ -235074,21 +235284,24 @@ customParameters = (
 {
 name = "Has WWS Names";
 value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6;ZalandoSans-ExpBlackIt";
+},
+{
+name = italicAngle;
+value = "10";
 }
 );
 instanceInterpolations = {
 "974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 1;
 };
 isItalic = 1;
-linkStyle = "Expanded ExtraBold";
-name = "Expanded ExtraBold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = "ZalandoSans-ExpExtraBoldIt";
-}
-);
-weightClass = 800;
+linkStyle = "Expanded Black";
+name = "Expanded Black Italic";
+weightClass = 900;
+widthClass = 7;
 }
 );
 kerningLTR = {
@@ -262379,5 +262592,5 @@ oV = "202";
 };
 };
 versionMajor = 1;
-versionMinor = 500;
+versionMinor = 600;
 }
