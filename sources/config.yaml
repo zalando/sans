@@ -17,6 +17,9 @@ recipe:
     - operation: exec
       exe: gftools gen-stat
       args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --src stat.yaml --inplace
+    - operation: exec
+      exe: gftools fix-nonhinting
+      args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --no-backup
 # Creating a Condensed VF and splitting the slant axis
   ../fonts/variable/ZalandoSansCondensed-Italic[wght].ttf:
     - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
