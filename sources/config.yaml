@@ -24,8 +24,17 @@ recipe:
   ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf:
     - source: ZalandoSans.glyphs
     - operation: exec
+      exe: fontmake
+      args: -g ZalandoSans.glyphs -o variable  --output-path ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --src stat.yaml --inplace
+    - operation: exec
+      exe: gftools fix-nonhinting
+      args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --no-backup
+    - operation: exec
       exe: gftools fix-instances
-      args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf -o ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf
+      args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf -o ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf
     - operation: exec
       exe: pyftsubset 
       args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --flavor=woff2 --output-file=../fonts/webfonts/ZalandoSans[wdth,wght,slnt].woff2 --glyphs=* --layout-features+=tnum --hinting --no-glyph-names
