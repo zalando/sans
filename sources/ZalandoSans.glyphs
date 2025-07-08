@@ -235206,7 +235206,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-CndXLight";
+value = "6; ZalandoSans-CnXLt";
 }
 );
 instanceInterpolations = {
@@ -235229,7 +235229,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-CndLight";
+value = "6; ZalandoSans-CnLt";
 }
 );
 instanceInterpolations = {
@@ -235253,7 +235253,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-Cnd";
+value = "6; ZalandoSans-Cn";
 }
 );
 instanceInterpolations = {
@@ -235275,7 +235275,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-CndMedium";
+value = "6; ZalandoSans-CnMd";
 }
 );
 instanceInterpolations = {
@@ -235299,7 +235299,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-CndSemiBold";
+value = "6; ZalandoSans-CnSmBd";
 }
 );
 instanceInterpolations = {
@@ -235323,7 +235323,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-CndBold";
+value = "6; ZalandoSans-CnBd";
 }
 );
 instanceInterpolations = {
@@ -235349,7 +235349,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-CndXBold";
+value = "6; ZalandoSans-CnXBd";
 }
 );
 instanceInterpolations = {
@@ -235373,7 +235373,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-CndBlack";
+value = "6; ZalandoSans-CnBlk";
 }
 );
 instanceInterpolations = {
@@ -235395,12 +235395,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-CndXLightIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-CnXLtIt";
 }
 );
 instanceInterpolations = {
@@ -235424,12 +235424,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-CndLightIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-CnLtIt";
 }
 );
 instanceInterpolations = {
@@ -235454,12 +235454,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-CndIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-CnIt";
 }
 );
 instanceInterpolations = {
@@ -235482,12 +235482,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-CndMediumIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-CnMdIt";
 }
 );
 instanceInterpolations = {
@@ -235512,12 +235512,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-CndSemiBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-CnSmBdIt";
 }
 );
 instanceInterpolations = {
@@ -235542,12 +235542,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-CndBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-CnBdIt";
 }
 );
 instanceInterpolations = {
@@ -235573,12 +235573,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-CndXBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-CnXBdIt";
 }
 );
 instanceInterpolations = {
@@ -235603,12 +235603,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-CndBlackIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-CnBlkIt";
 }
 );
 instanceInterpolations = {
@@ -235633,14 +235633,14 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndXLight";
+value = "6; ZalandoSans-SmCnXLt";
 }
 );
 instanceInterpolations = {
 "89792DEA-715D-4C6B-9843-C33DBACDCF53" = 0.49007;
 "CF630257-B204-4765-8982-527F59E4E5D4" = 0.50993;
 };
-name = "SemiCondensed ExtraLight";
+name = "SmCondensed ExtraLight";
 weightClass = 200;
 widthClass = 4;
 },
@@ -235657,7 +235657,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndLight";
+value = "6; ZalandoSans-SmCnLt";
 }
 );
 instanceInterpolations = {
@@ -235666,7 +235666,7 @@ instanceInterpolations = {
 "F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.25246;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.26269;
 };
-name = "SemiCondensed Light";
+name = "SmCondensed Light";
 weightClass = 300;
 widthClass = 4;
 },
@@ -235683,14 +235683,14 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeCnd";
+value = "6; ZalandoSans-SmCn";
 }
 );
 instanceInterpolations = {
 "F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.49007;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.50993;
 };
-name = SemiCondensed;
+name = SmCondensed;
 widthClass = 4;
 },
 {
@@ -235706,7 +235706,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndMedium";
+value = "6; ZalandoSans-SmCnMd";
 }
 );
 instanceInterpolations = {
@@ -235715,7 +235715,7 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.12366;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.38126;
 };
-name = "SemiCondensed Medium";
+name = "SmCondensed Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -235732,7 +235732,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndSemiBold";
+value = "6; ZalandoSans-SmCnSmBd";
 }
 );
 instanceInterpolations = {
@@ -235741,7 +235741,7 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.24732;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.25258;
 };
-name = "SemiCondensed SemiBold";
+name = "SmCondensed SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -235758,7 +235758,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndBold";
+value = "6; ZalandoSans-SmCnBd";
 }
 );
 instanceInterpolations = {
@@ -235769,7 +235769,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 linkStyle = SemiCondensed;
-name = "SemiCondensed Bold";
+name = "SmCondensed Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -235786,7 +235786,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndXBold";
+value = "6; ZalandoSans-SmCnXBd";
 }
 );
 instanceInterpolations = {
@@ -235795,7 +235795,7 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.43053;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.06195;
 };
-name = "SemiCondensed ExtraBold";
+name = "SmCondensed ExtraBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -235812,14 +235812,14 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndBlack";
+value = "6; ZalandoSans-SmCnBlk";
 }
 );
 instanceInterpolations = {
 "3E78BF7E-2ACA-4E8F-B7F7-8733FDFDD1D6" = 0.50993;
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.49007;
 };
-name = "SemiCondensed Black";
+name = "SmCondensed Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -235835,12 +235835,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndXLightIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmCnXLtIt";
 }
 );
 instanceInterpolations = {
@@ -235848,8 +235848,8 @@ instanceInterpolations = {
 "3A742E95-6392-47DA-98D0-C770A5889573" = 0.49007;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed ExtraLight";
-name = "SemiCondensed ExtraLight Italic";
+linkStyle = "SmCondensed ExtraLight";
+name = "SmCondensed ExtraLight Italic";
 weightClass = 200;
 widthClass = 4;
 },
@@ -235865,12 +235865,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndLightIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmCnLtIt";
 }
 );
 instanceInterpolations = {
@@ -235880,8 +235880,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.26269;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed Light";
-name = "SemiCondensed Light Italic";
+linkStyle = "SmCondensed Light";
+name = "SmCondensed Light Italic";
 weightClass = 300;
 widthClass = 4;
 },
@@ -235897,12 +235897,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmCnIt";
 }
 );
 instanceInterpolations = {
@@ -235910,8 +235910,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.50993;
 };
 isItalic = 1;
-linkStyle = SemiCondensed;
-name = "SemiCondensed Italic";
+linkStyle = SmCondensed;
+name = "SmCondensed Italic";
 widthClass = 4;
 },
 {
@@ -235926,12 +235926,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndMediumIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmCnMdIt";
 }
 );
 instanceInterpolations = {
@@ -235941,8 +235941,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.38126;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed Medium";
-name = "SemiCondensed Medium Italic";
+linkStyle = "SmCondensed Medium";
+name = "SmCondensed Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -235958,12 +235958,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndSemiBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmCnSmBdIt";
 }
 );
 instanceInterpolations = {
@@ -235973,8 +235973,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.25258;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed SemiBold";
-name = "SemiCondensed SemiBold Italic";
+linkStyle = "SmCondensed SemiBold";
+name = "SmCondensed SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -235990,12 +235990,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmCnBdIt";
 }
 );
 instanceInterpolations = {
@@ -236006,8 +236006,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = SemiCondensed;
-name = "SemiCondensed Bold Italic";
+linkStyle = SmCondensed;
+name = "SmCondensed Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -236023,12 +236023,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndXBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmCnXBdIt";
 }
 );
 instanceInterpolations = {
@@ -236038,8 +236038,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.06195;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed ExtraBold";
-name = "SemiCondensed ExtraBold Italic";
+linkStyle = "SmCondensed ExtraBold";
+name = "SmCondensed ExtraBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -236055,12 +236055,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeCndBlackIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmCnBlkIt";
 }
 );
 instanceInterpolations = {
@@ -236068,8 +236068,8 @@ instanceInterpolations = {
 "5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 0.49007;
 };
 isItalic = 1;
-linkStyle = "SemiCondensed Black";
-name = "SemiCondensed Black Italic";
+linkStyle = "SmCondensed Black";
+name = "SmCondensed Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -236350,14 +236350,14 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpXLight";
+value = "6; ZalandoSans-SmExXLt";
 }
 );
 instanceInterpolations = {
 "CF630257-B204-4765-8982-527F59E4E5D4" = 0.60109;
 m007 = 0.39891;
 };
-name = "SemiExpanded ExtraLight";
+name = "SmExpanded ExtraLight";
 weightClass = 200;
 widthClass = 6;
 },
@@ -236374,7 +236374,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpLight";
+value = "6; ZalandoSans-SmExLt";
 }
 );
 instanceInterpolations = {
@@ -236383,7 +236383,7 @@ instanceInterpolations = {
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.30965;
 m007 = 0.19341;
 };
-name = "SemiExpanded Light";
+name = "SmExpanded Light";
 weightClass = 300;
 widthClass = 6;
 },
@@ -236400,14 +236400,14 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeExp";
+value = "6; ZalandoSans-SmEx";
 }
 );
 instanceInterpolations = {
 "7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.39891;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.60109;
 };
-name = SemiExpanded;
+name = SmExpanded;
 widthClass = 6;
 },
 {
@@ -236423,7 +236423,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpMedium";
+value = "6; ZalandoSans-SmExMd";
 }
 );
 instanceInterpolations = {
@@ -236432,7 +236432,7 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.10066;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.44942;
 };
-name = "SemiExpanded Medium";
+name = "SmExpanded Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -236449,7 +236449,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpSemiBold";
+value = "6; ZalandoSans-SmExSmBd";
 }
 );
 instanceInterpolations = {
@@ -236458,7 +236458,7 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.20132;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.29774;
 };
-name = "SemiExpanded SemiBold";
+name = "SmExpanded SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -236475,7 +236475,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpBold";
+value = "6; ZalandoSans-SmExBd";
 }
 );
 instanceInterpolations = {
@@ -236486,7 +236486,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 linkStyle = SemiExpanded;
-name = "SemiExpanded Bold";
+name = "SmExpanded Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -236503,7 +236503,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpXBold";
+value = "6; ZalandoSans-SmExXBd";
 }
 );
 instanceInterpolations = {
@@ -236512,7 +236512,7 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.35044;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.07303;
 };
-name = "SemiExpanded ExtraBold";
+name = "SmExpanded ExtraBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -236529,14 +236529,14 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpBlack";
+value = "6; ZalandoSans-SmExBlk";
 }
 );
 instanceInterpolations = {
 "3E78BF7E-2ACA-4E8F-B7F7-8733FDFDD1D6" = 0.60109;
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.39891;
 };
-name = "SemiExpanded Black";
+name = "SmExpanded Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -236552,12 +236552,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpXLightIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmExXLtIt";
 }
 );
 instanceInterpolations = {
@@ -236565,8 +236565,8 @@ instanceInterpolations = {
 "7B4F6316-DEA5-4C61-853A-FCC6E55FB2E9" = 0.39891;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded ExtraLight";
-name = "SemiExpanded ExtraLight Italic";
+linkStyle = "SmExpanded ExtraLight";
+name = "SmExpanded ExtraLight Italic";
 weightClass = 200;
 widthClass = 6;
 },
@@ -236582,12 +236582,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpLightIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmExLtIt";
 }
 );
 instanceInterpolations = {
@@ -236597,8 +236597,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.2055;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded Light";
-name = "SemiExpanded Light Italic";
+linkStyle = "SmExpanded Light";
+name = "SmExpanded Light Italic";
 weightClass = 300;
 widthClass = 6;
 },
@@ -236614,12 +236614,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmExIt";
 }
 );
 instanceInterpolations = {
@@ -236627,8 +236627,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.39891;
 };
 isItalic = 1;
-linkStyle = SemiExpanded;
-name = "SemiExpanded Italic";
+linkStyle = SmExpanded;
+name = "SmExpanded Italic";
 widthClass = 6;
 },
 {
@@ -236643,12 +236643,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpMediumIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmExMdIt";
 }
 );
 instanceInterpolations = {
@@ -236658,8 +236658,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.29825;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded Medium";
-name = "SemiExpanded Medium Italic";
+linkStyle = "SmExpanded Medium";
+name = "SmExpanded Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -236675,12 +236675,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpSemiBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmExSmBdIt";
 }
 );
 instanceInterpolations = {
@@ -236690,8 +236690,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.19759;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded SemiBold";
-name = "SemiExpanded SemiBold Italic";
+linkStyle = "SmExpanded SemiBold";
+name = "SmExpanded SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -236707,12 +236707,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmExBdIt";
 }
 );
 instanceInterpolations = {
@@ -236723,8 +236723,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = SemiExpanded;
-name = "SemiExpanded Bold Italic";
+linkStyle = SmExpanded;
+name = "SmExpanded Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -236740,12 +236740,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpXBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmExXBdIt";
 }
 );
 instanceInterpolations = {
@@ -236755,8 +236755,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.04847;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded ExtraBold";
-name = "SemiExpanded ExtraBold Italic";
+linkStyle = "SmExpanded ExtraBold";
+name = "SmExpanded ExtraBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -236772,12 +236772,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-SeExpBlackIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-SmExBlkIt";
 }
 );
 instanceInterpolations = {
@@ -236785,8 +236785,8 @@ instanceInterpolations = {
 "974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 0.39891;
 };
 isItalic = 1;
-linkStyle = "SemiExpanded Black";
-name = "SemiExpanded Black Italic";
+linkStyle = "SmExpanded Black";
+name = "SmExpanded Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
@@ -236803,7 +236803,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-ExpXLight";
+value = "6; ZalandoSans-ExXLt";
 }
 );
 instanceInterpolations = {
@@ -236826,7 +236826,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-ExpLight";
+value = "6; ZalandoSans-ExLt";
 }
 );
 instanceInterpolations = {
@@ -236850,7 +236850,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-Exp";
+value = "6; ZalandoSans-Ex";
 }
 );
 instanceInterpolations = {
@@ -236872,7 +236872,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-ExpMedium";
+value = "6; ZalandoSans-ExMd";
 }
 );
 instanceInterpolations = {
@@ -236896,7 +236896,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-ExpSemiBold";
+value = "6; ZalandoSans-ExSmBd";
 }
 );
 instanceInterpolations = {
@@ -236920,7 +236920,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-ExpBold";
+value = "6; ZalandoSans-ExBd";
 }
 );
 instanceInterpolations = {
@@ -236946,7 +236946,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-ExpXBold";
+value = "6; ZalandoSans-ExXBd";
 }
 );
 instanceInterpolations = {
@@ -236970,7 +236970,7 @@ value = 1;
 },
 {
 name = "Name Table Entry";
-value = "6;ZalandoSans-ExpBlack";
+value = "6; ZalandoSans-ExBlk";
 }
 );
 instanceInterpolations = {
@@ -236992,12 +236992,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-ExpXLightIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExXLtIt";
 }
 );
 instanceInterpolations = {
@@ -237021,12 +237021,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-ExpLightIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExLtIt";
 }
 );
 instanceInterpolations = {
@@ -237051,12 +237051,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-ExpIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExIt";
 }
 );
 instanceInterpolations = {
@@ -237079,12 +237079,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-ExpMediumIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExMdIt";
 }
 );
 instanceInterpolations = {
@@ -237109,12 +237109,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-ExpSemiBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExSmBdIt";
 }
 );
 instanceInterpolations = {
@@ -237139,12 +237139,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-ExpBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExBdIt";
 }
 );
 instanceInterpolations = {
@@ -237170,12 +237170,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-ExpXBoldIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExXBdIt";
 }
 );
 instanceInterpolations = {
@@ -237200,12 +237200,12 @@ name = "Has WWS Names";
 value = 1;
 },
 {
-name = "Name Table Entry";
-value = "6;ZalandoSans-ExpBlackIt";
-},
-{
 name = italicAngle;
 value = "10";
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExBlkIt";
 }
 );
 instanceInterpolations = {
