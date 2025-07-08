@@ -1,9 +1,6 @@
 {
 .appVersion = "3418";
 .formatVersion = 3;
-DisplayStrings = (
-"«"
-);
 axes = (
 {
 name = Width;
@@ -57,7 +54,7 @@ wght = {
 200 = 61;
 300 = 78;
 400 = 94;
-500 = 120;
+500 = 121;
 600 = 148;
 700 = 174;
 800 = 188;
