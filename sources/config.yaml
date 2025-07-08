@@ -21,6 +21,8 @@ recipe:
       exe: gftools fix-nonhinting
       args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --no-backup
 # Export webfont 
+  ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf:
+    - source: ZalandoSans.glyphs
     - operation: exec
       exe: gftools fix-instances
       args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf -o ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf
