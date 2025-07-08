@@ -2,7 +2,7 @@ sources:
   - ZalandoSans.glyphs
 familyName: "Zalando Sans"
 buildStatic: true
-buildWebfont: true
+buildWebfont: false
 autohintTTF: true
 autohintOTF: true
 splitItalic: true
@@ -20,6 +20,13 @@ recipe:
     - operation: exec
       exe: gftools fix-nonhinting
       args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --no-backup
+# Export webfont 
+    - operation: exec
+      exe: gftools fix-instances
+      args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf -o ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: exec
+      exe: pyftsubset 
+      args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --flavor=woff2 --output-file=../fonts/webfonts/ZalandoSans[wdth,wght,slnt].woff2 --glyphs=* --layout-features+=tnum --hinting --no-glyph-names
 # Creating a Condensed VF and splitting the slant axis
   ../fonts/variable/ZalandoSansCondensed-Italic[wght].ttf:
     - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
