@@ -78,5 +78,25 @@ recipe:
     - operation: fix
     - postprocess: buildStat
       needs: ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf
+# Creating an SemiExpanded VF and splitting the slant axis
+  ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf:
+    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: subspace
+      axes: wdth=112.5 slnt=-10
+      args: --update-name-table
+    - operation: rename
+      name: Zalando Sans SemiExpanded
+    - operation: fix
+    - operation: buildStat
+  ../fonts/variable/ZalandoSansSemiExpanded[wght].ttf:
+    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: subspace
+      axes: wdth=112.5 slnt=0
+      args: --update-name-table
+    - operation: rename
+      name: Zalando Sans SemiExpanded
+    - operation: fix
+    - postprocess: buildStat
+      needs: ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf
     
 
