@@ -1,6 +1,6 @@
 sources:
-  - ZalandoSans.glyphs
-familyName: "Zalando Sans"
+  - Zalando.glyphs
+familyName: "Zalando"
 buildStatic: true
 buildWebfont: false
 autohintTTF: true
@@ -9,75 +9,81 @@ splitItalic: true
 recipeProvider: googlefonts
 recipe:
 # Creating a family with 3 axes
-  ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf:
-    - source: ZalandoSans.glyphs
+  ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf:
+    - source: Zalando.glyphs
     - operation: exec
       exe: fontmake
-      args: -g ZalandoSans.glyphs -o variable  --output-path ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      args: -g Zalando.glyphs -o variable  --output-path ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     - operation: exec
       exe: gftools gen-stat
-      args: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf --src stat.yaml --inplace
+      args: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf --src stat.yaml --inplace
     - operation: exec
       exe: gftools fix-nonhinting
-      args: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --no-backup
+      args: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf ../fonts/variable/Zalando[wdth,wght,slnt].ttf --no-backup
 # Export webfont 
-  ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf:
-    - source: ZalandoSans.glyphs
+  ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf:
+    - source: Zalando.glyphs
     - operation: exec
       exe: fontmake
-      args: -g ZalandoSans.glyphs -o variable  --output-path ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      args: -g Zalando.glyphs -o variable  --output-path ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     - operation: exec
       exe: gftools gen-stat
-      args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --src stat.yaml --inplace
+      args: ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf --src stat.yaml --inplace
     - operation: exec
       exe: gftools fix-nonhinting
-      args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --no-backup
+      args: ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf --no-backup
     - operation: exec
       exe: gftools fix-instances
-      args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf -o ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf
+      args: ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf -o ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf
     - operation: exec
       exe: pyftsubset 
-      args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --flavor=woff2 --output-file=../fonts/webfonts/ZalandoSans[wdth,wght,slnt].woff2 --glyphs=* --layout-features+=tnum --hinting --no-glyph-names
+      args: ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf --flavor=woff2 --output-file=../fonts/webfonts/Zalando[wdth,wght,slnt].woff2 --glyphs=* --layout-features+=tnum --hinting --no-glyph-names
 # Creating an Expanded VF and splitting the slant axis
-  ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf:
-    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
+  ../fonts/variable/ZalandoExpanded-Italic[wght].ttf:
+    - source: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=125 slnt=-10
       args: --update-name-table
     - operation: rename
-      name: Zalando Sans Expanded
+      name: Zalando Expanded
     - operation: fix
-    - operation: buildStat
-  ../fonts/variable/ZalandoSansExpanded[wght].ttf:
-    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoExpanded-Italic[wght].ttf --src stat-1axis.yaml --inplace
+  ../fonts/variable/ZalandoExpanded[wght].ttf:
+    - source: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=125 slnt=0
       args: --update-name-table
     - operation: rename
-      name: Zalando Sans Expanded
+      name: Zalando Expanded
     - operation: fix
-    - postprocess: buildStat
-      needs: ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoExpanded[wght].ttf --src stat-1axis.yaml --inplace
 # Creating an SemiExpanded VF and splitting the slant axis
-  ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf:
-    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
+  ../fonts/variable/ZalandoSemiExpanded-Italic[wght].ttf:
+    - source: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=112.5 slnt=-10
       args: --update-name-table
     - operation: rename
-      name: Zalando Sans SemiExpanded
+      name: Zalando SemiExpanded
     - operation: fix
-    - operation: buildStat
-  ../fonts/variable/ZalandoSansSemiExpanded[wght].ttf:
-    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoSemiExpanded-Italic[wght].ttf --src stat-1axis.yaml --inplace
+  ../fonts/variable/ZalandoSemiExpanded[wght].ttf:
+    - source: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=112.5 slnt=0
       args: --update-name-table
     - operation: rename
-      name: Zalando Sans SemiExpanded
+      name: Zalando SemiExpanded
     - operation: fix
-    - postprocess: buildStat
-      needs: ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoSemiExpanded[wght].ttf --src stat-1axis.yaml --inplace
     
     
 
