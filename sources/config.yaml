@@ -40,7 +40,7 @@ recipe:
       args: ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf --flavor=woff2 --output-file=../fonts/webfonts/Zalando[wdth,wght,slnt].woff2 --glyphs=* --layout-features+=tnum --hinting --no-glyph-names
 # Creating an Expanded VF and splitting the slant axis
   ../fonts/variable/ZalandoExpanded-Italic[wght].ttf:
-    - source: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf
+    - source: ../fonts/variable/Zalando[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=125 slnt=-10
       args: --update-name-table
@@ -51,7 +51,7 @@ recipe:
       exe: gftools gen-stat
       args: ../fonts/variable/ZalandoExpanded-Italic[wght].ttf --src stat-1axis.yaml --inplace
   ../fonts/variable/ZalandoExpanded[wght].ttf:
-    - source: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf
+    - source: ../fonts/variable/Zalando[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=125 slnt=0
       args: --update-name-table
@@ -63,7 +63,7 @@ recipe:
       args: ../fonts/variable/ZalandoExpanded[wght].ttf --src stat-1axis.yaml --inplace
 # Creating an SemiExpanded VF and splitting the slant axis
   ../fonts/variable/ZalandoSemiExpanded-Italic[wght].ttf:
-    - source: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf
+    - source: ../fonts/variable/Zalando[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=112.5 slnt=-10
       args: --update-name-table
@@ -74,7 +74,7 @@ recipe:
       exe: gftools gen-stat
       args: ../fonts/variable/ZalandoSemiExpanded-Italic[wght].ttf --src stat-1axis.yaml --inplace
   ../fonts/variable/ZalandoSemiExpanded[wght].ttf:
-    - source: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf
+    - source: ../fonts/variable/Zalando[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=112.5 slnt=0
       args: --update-name-table
