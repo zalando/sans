@@ -1,7 +1,7 @@
 sources:
   - ZalandoSans.glyphs
 familyName: "Zalando Sans"
-buildStatic: true
+buildStatic: false
 buildWebfont: false
 autohintTTF: true
 autohintOTF: true
@@ -9,17 +9,17 @@ splitItalic: true
 recipeProvider: googlefonts
 recipe:
 # Creating a family with 3 axes
-  ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf:
+  ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf:
     - source: ZalandoSans.glyphs
     - operation: exec
       exe: fontmake
-      args: -g ZalandoSans.glyphs -o variable  --output-path ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      args: -g ZalandoSans.glyphs -o variable  --output-path ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     - operation: exec
       exe: gftools gen-stat
-      args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --src stat.yaml --inplace
+      args: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf --src stat.yaml --inplace
     - operation: exec
       exe: gftools fix-nonhinting
-      args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --no-backup
+      args: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --no-backup
 # Export webfont 
   ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf:
     - source: ZalandoSans.glyphs
@@ -40,7 +40,7 @@ recipe:
       args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --flavor=woff2 --output-file=../fonts/webfonts/ZalandoSans[wdth,wght,slnt].woff2 --glyphs=* --layout-features+=tnum --hinting --no-glyph-names
 # Creating a Condensed VF and splitting the slant axis
   ../fonts/variable/ZalandoSansCondensed-Italic[wght].ttf:
-    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=75 slnt=-10
       args: --update-name-table
@@ -49,7 +49,7 @@ recipe:
     - operation: fix
     - operation: buildStat
   ../fonts/variable/ZalandoSansCondensed[wght].ttf:
-    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=75 slnt=0
       args: --update-name-table
@@ -60,7 +60,7 @@ recipe:
       needs: ../fonts/variable/ZalandoSansCondensed-Italic[wght].ttf
 # Creating an Expanded VF and splitting the slant axis
   ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf:
-    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=125 slnt=-10
       args: --update-name-table
@@ -69,7 +69,7 @@ recipe:
     - operation: fix
     - operation: buildStat
   ../fonts/variable/ZalandoSansExpanded[wght].ttf:
-    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=125 slnt=0
       args: --update-name-table
@@ -80,7 +80,7 @@ recipe:
       needs: ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf
 # Creating an SemiExpanded VF and splitting the slant axis
   ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf:
-    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=112.5 slnt=-10
       args: --update-name-table
@@ -89,7 +89,7 @@ recipe:
     - operation: fix
     - operation: buildStat
   ../fonts/variable/ZalandoSansSemiExpanded[wght].ttf:
-    - source: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf
+    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
     - operation: subspace
       axes: wdth=112.5 slnt=0
       args: --update-name-table
@@ -98,5 +98,6 @@ recipe:
     - operation: fix
     - postprocess: buildStat
       needs: ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf
+    
     
 
