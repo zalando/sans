@@ -9,17 +9,17 @@ splitItalic: true
 recipeProvider: googlefonts
 recipe:
 # Creating a family with 3 axes
-  ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf:
+  ../fonts/variable/Zalando[wdth,wght,slnt].ttf:
     - source: Zalando.glyphs
     - operation: exec
       exe: fontmake
-      args: -g Zalando.glyphs -o variable  --output-path ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      args: -g Zalando.glyphs -o variable  --output-path ../fonts/variable/Zalando[wdth,wght,slnt].ttf --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     - operation: exec
       exe: gftools gen-stat
-      args: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf --src stat.yaml --inplace
+      args: ../fonts/variable/Zalando[wdth,wght,slnt].ttf --src stat.yaml --inplace
     - operation: exec
       exe: gftools fix-nonhinting
-      args: ../fonts/variable_zalando/Zalando[wdth,wght,slnt].ttf ../fonts/variable/Zalando[wdth,wght,slnt].ttf --no-backup
+      args: ../fonts/variable/Zalando[wdth,wght,slnt].ttf ../fonts/variable/Zalando[wdth,wght,slnt].ttf --no-backup
 # Export webfont 
   ../fonts/webfonts/Zalando[wdth,wght,slnt].ttf:
     - source: Zalando.glyphs
