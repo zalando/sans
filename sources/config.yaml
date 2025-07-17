@@ -1,7 +1,7 @@
 sources:
   - ZalandoSans.glyphs
 familyName: "Zalando Sans"
-buildStatic: false
+buildStatic: true
 buildWebfont: false
 autohintTTF: true
 autohintOTF: true
