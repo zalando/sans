@@ -1,6 +1,7 @@
 sources:
   - ZalandoSans.glyphs
 familyName: "Zalando Sans"
+version: 1.701
 buildStatic: true
 buildWebfont: false
 autohintTTF: true
@@ -47,7 +48,9 @@ recipe:
     - operation: rename
       name: Zalando Sans Expanded
     - operation: fix
-    - operation: buildStat
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf --src stat-1axis.yaml --inplace
   ../fonts/variable/ZalandoSansExpanded[wght].ttf:
     - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
     - operation: subspace
@@ -56,8 +59,9 @@ recipe:
     - operation: rename
       name: Zalando Sans Expanded
     - operation: fix
-    - postprocess: buildStat
-      needs: ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoSansExpanded[wght].ttf --src stat-1axis.yaml --inplace
 # Creating an SemiExpanded VF and splitting the slant axis
   ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf:
     - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
@@ -67,7 +71,9 @@ recipe:
     - operation: rename
       name: Zalando Sans SemiExpanded
     - operation: fix
-    - operation: buildStat
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf --src stat-1axis.yaml --inplace
   ../fonts/variable/ZalandoSansSemiExpanded[wght].ttf:
     - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
     - operation: subspace
@@ -76,8 +82,9 @@ recipe:
     - operation: rename
       name: Zalando Sans SemiExpanded
     - operation: fix
-    - postprocess: buildStat
-      needs: ../fonts/variable/ZalandoSansSemiExpanded-Italic[wght].ttf
+    - operation: exec
+      exe: gftools gen-stat
+      args: ../fonts/variable/ZalandoSansSemiExpanded[wght].ttf --src stat-1axis.yaml --inplace
     
     
 
