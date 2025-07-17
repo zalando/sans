@@ -38,26 +38,6 @@ recipe:
     - operation: exec
       exe: pyftsubset 
       args: ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf --flavor=woff2 --output-file=../fonts/webfonts/ZalandoSans[wdth,wght,slnt].woff2 --glyphs=* --layout-features+=tnum --hinting --no-glyph-names
-# Creating a Condensed VF and splitting the slant axis
-  ../fonts/variable/ZalandoSansCondensed-Italic[wght].ttf:
-    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
-    - operation: subspace
-      axes: wdth=75 slnt=-10
-      args: --update-name-table
-    - operation: rename
-      name: Zalando Sans Condensed
-    - operation: fix
-    - operation: buildStat
-  ../fonts/variable/ZalandoSansCondensed[wght].ttf:
-    - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
-    - operation: subspace
-      axes: wdth=75 slnt=0
-      args: --update-name-table
-    - operation: rename
-      name: Zalando Sans Condensed
-    - operation: fix
-    - postprocess: buildStat
-      needs: ../fonts/variable/ZalandoSansCondensed-Italic[wght].ttf
 # Creating an Expanded VF and splitting the slant axis
   ../fonts/variable/ZalandoSansExpanded-Italic[wght].ttf:
     - source: ../fonts/variable_zalando/ZalandoSans[wdth,wght,slnt].ttf
