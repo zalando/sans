@@ -47,7 +47,7 @@ recipe:
     - operation: rename
       name: Zalando Expanded
     - operation: fix
-    - operation: exec
+    - postprocess: exec
       exe: gftools gen-stat
       args: ../fonts/variable/ZalandoExpanded-Italic[wght].ttf --src stat-1axis.yaml --inplace
   ../fonts/variable/ZalandoExpanded[wght].ttf:
@@ -58,7 +58,7 @@ recipe:
     - operation: rename
       name: Zalando Expanded
     - operation: fix
-    - operation: exec
+    - postprocess: exec
       exe: gftools gen-stat
       args: ../fonts/variable/ZalandoExpanded[wght].ttf --src stat-1axis.yaml --inplace
 # Creating an SemiExpanded VF and splitting the slant axis
@@ -70,7 +70,7 @@ recipe:
     - operation: rename
       name: Zalando SemiExpanded
     - operation: fix
-    - operation: exec
+    - postprocess: exec
       exe: gftools gen-stat
       args: ../fonts/variable/ZalandoSemiExpanded-Italic[wght].ttf --src stat-1axis.yaml --inplace
   ../fonts/variable/ZalandoSemiExpanded[wght].ttf:
@@ -81,7 +81,7 @@ recipe:
     - operation: rename
       name: Zalando SemiExpanded
     - operation: fix
-    - operation: exec
+    - postprocess: exec
       exe: gftools gen-stat
       args: ../fonts/variable/ZalandoSemiExpanded[wght].ttf --src stat-1axis.yaml --inplace
     
