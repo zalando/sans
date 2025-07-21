@@ -1,5 +1,5 @@
 {
-.appVersion = "3419";
+.appVersion = "3420";
 .formatVersion = 3;
 axes = (
 {
@@ -235858,7 +235858,7 @@ instanceInterpolations = {
 "3A742E95-6392-47DA-98D0-C770A5889573" = 0.49007;
 };
 isItalic = 1;
-linkStyle = "SmCondensed ExtraLight";
+linkStyle = "SemiCondensed ExtraLight";
 name = "SemiCondensed ExtraLight Italic";
 weightClass = 200;
 widthClass = 4;
@@ -235890,7 +235890,7 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.26269;
 };
 isItalic = 1;
-linkStyle = "SmCondensed Light";
+linkStyle = "SemiCondensed Light";
 name = "SemiCondensed Light Italic";
 weightClass = 300;
 widthClass = 4;
@@ -235920,7 +235920,7 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.50993;
 };
 isItalic = 1;
-linkStyle = SmCondensed;
+linkStyle = SemiCondensed;
 name = "SemiCondensed Italic";
 widthClass = 4;
 },
@@ -235951,7 +235951,7 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.38126;
 };
 isItalic = 1;
-linkStyle = "SmCondensed Medium";
+linkStyle = "SemiCondensed Medium";
 name = "SemiCondensed Medium Italic";
 weightClass = 500;
 widthClass = 4;
@@ -235983,7 +235983,7 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.25258;
 };
 isItalic = 1;
-linkStyle = "SmCondensed SemiBold";
+linkStyle = "SemiCondensed SemiBold";
 name = "SemiCondensed SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
@@ -236016,7 +236016,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = SmCondensed;
+linkStyle = SemiCondensed;
 name = "SemiCondensed Bold Italic";
 weightClass = 700;
 widthClass = 4;
@@ -236048,7 +236048,7 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.06195;
 };
 isItalic = 1;
-linkStyle = "SmCondensed ExtraBold";
+linkStyle = "SemiCondensed ExtraBold";
 name = "SemiCondensed ExtraBold Italic";
 weightClass = 800;
 widthClass = 4;
@@ -236078,7 +236078,7 @@ instanceInterpolations = {
 "5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 0.49007;
 };
 isItalic = 1;
-linkStyle = "SmCondensed Black";
+linkStyle = "SemiCondensed Black";
 name = "SemiCondensed Black Italic";
 weightClass = 900;
 widthClass = 4;
@@ -236575,7 +236575,7 @@ instanceInterpolations = {
 "7B4F6316-DEA5-4C61-853A-FCC6E55FB2E9" = 0.39891;
 };
 isItalic = 1;
-linkStyle = "SmExpanded ExtraLight";
+linkStyle = "SemiExpanded ExtraLight";
 name = "SemiExpanded ExtraLight Italic";
 weightClass = 200;
 widthClass = 6;
@@ -236607,7 +236607,7 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.2055;
 };
 isItalic = 1;
-linkStyle = "SmExpanded Light";
+linkStyle = "SemiExpanded Light";
 name = "SemiExpanded Light Italic";
 weightClass = 300;
 widthClass = 6;
@@ -236637,7 +236637,7 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.39891;
 };
 isItalic = 1;
-linkStyle = SmExpanded;
+linkStyle = SemiExpanded;
 name = "SemiExpanded Italic";
 widthClass = 6;
 },
@@ -236668,7 +236668,7 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.29825;
 };
 isItalic = 1;
-linkStyle = "SmExpanded Medium";
+linkStyle = "SemiExpanded Medium";
 name = "SemiExpanded Medium Italic";
 weightClass = 500;
 widthClass = 6;
@@ -236700,7 +236700,7 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.19759;
 };
 isItalic = 1;
-linkStyle = "SmExpanded SemiBold";
+linkStyle = "SemiExpanded SemiBold";
 name = "SemiExpanded SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
@@ -236733,7 +236733,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = SmExpanded;
+linkStyle = SemiExpanded;
 name = "SemiExpanded Bold Italic";
 weightClass = 700;
 widthClass = 6;
@@ -236765,7 +236765,7 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.04847;
 };
 isItalic = 1;
-linkStyle = "SmExpanded ExtraBold";
+linkStyle = "SemiExpanded ExtraBold";
 name = "SemiExpanded ExtraBold Italic";
 weightClass = 800;
 widthClass = 6;
@@ -236795,7 +236795,7 @@ instanceInterpolations = {
 "974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 0.39891;
 };
 isItalic = 1;
-linkStyle = "SmExpanded Black";
+linkStyle = "SemiExpanded Black";
 name = "SemiExpanded Black Italic";
 weightClass = 900;
 widthClass = 6;
