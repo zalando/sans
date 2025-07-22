@@ -1,6 +1,6 @@
-# Zalando Sans
+# Zalando typeface
 
-Zalando Sans is a bespoke sans serif typeface, developed as a cornerstone of the Zalando brand identity. Designed with flexibility and accessibility at the heart, it meets the diverse needs of the Zalando eco-system.
+The Zalando typeface is a bespoke sans serif, developed as a cornerstone of the Zalando brand identity. Designed with flexibility and accessibility at the heart, it meets the diverse needs of the Zalando eco-system.
 
 ![Sample Image](documentation/ZalandoSans_1.png)  
 
@@ -14,11 +14,11 @@ This flexibility allows for a wide range of expressive possibilities while maint
 
 ![Sample Image](documentation/ZalandoSans_3.png)  
 
-Staying true to Zalando’s personality—Bold, Fun, and Welcoming—Zalando Sans elevates every design it inhabits. When used effectively, it becomes a powerful design element, showcasing Zalando’s commitment to helping people feel confident in their style.
+Staying true to Zalando’s personality—Bold, Fun, and Welcoming—Zalando’s typeface elevates every design it inhabits. When used effectively, it becomes a powerful design element, showcasing the brand’s commitment to helping people feel confident in their style.
 
 ![Sample Image](documentation/ZalandoSans_2.png)  
 
-Zalando Sans was designed by Jakob Ekelund of KH Type, Stockholm in 2025 in collaboration with the Zalando brand and product design teams in Berlin.
+The Zalando font family was designed by Jakob Ekelund of KH Type, Stockholm in 2025 in collaboration with the Zalando brand and product design teams in Berlin.
 
 
 ## Building the font
