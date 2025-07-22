@@ -1,5 +1,5 @@
 {
-.appVersion = "3418";
+.appVersion = "3420";
 .formatVersion = 3;
 axes = (
 {
@@ -104235,16 +104235,18 @@ color = 10;
 export = 0;
 glyphname = napostrophe;
 kernRight = n;
-lastChange = "2025-07-08 08:05:20 +0000";
+lastChange = "2025-07-21 09:43:54 +0000";
 layers = (
 {
 layerId = m007;
 shapes = (
 {
+alignment = -1;
 pos = (-46,0);
 ref = apostrophemod;
 },
 {
+alignment = -1;
 pos = (105,0);
 ref = n;
 }
@@ -104255,10 +104257,12 @@ width = 800;
 layerId = "7DF63F5B-BA78-420A-94D8-89AFC26E7780";
 shapes = (
 {
+alignment = -1;
 pos = (-41,0);
 ref = apostrophemod;
 },
 {
+alignment = -1;
 pos = (144,0);
 ref = n;
 }
@@ -104269,10 +104273,12 @@ width = 848;
 layerId = "CF630257-B204-4765-8982-527F59E4E5D4";
 shapes = (
 {
+alignment = -1;
 pos = (-51,0);
 ref = apostrophemod;
 },
 {
+alignment = -1;
 pos = (51,0);
 ref = n;
 }
@@ -104383,10 +104389,12 @@ width = 565;
 layerId = "38E57698-3E0D-47EE-AD12-065B63128021";
 shapes = (
 {
+alignment = -1;
 pos = (-51,0);
 ref = apostrophemod;
 },
 {
+alignment = -1;
 pos = (71,0);
 ref = n;
 }
@@ -104397,10 +104405,12 @@ width = 655;
 layerId = "7B4F6316-DEA5-4C61-853A-FCC6E55FB2E9";
 shapes = (
 {
+alignment = -1;
 pos = (-46,0);
 ref = apostrophemod;
 },
 {
+alignment = -1;
 pos = (107,0);
 ref = n;
 }
@@ -235640,7 +235650,7 @@ instanceInterpolations = {
 "89792DEA-715D-4C6B-9843-C33DBACDCF53" = 0.49007;
 "CF630257-B204-4765-8982-527F59E4E5D4" = 0.50993;
 };
-name = "SmCondensed ExtraLight";
+name = "SemiCondensed ExtraLight";
 weightClass = 200;
 widthClass = 4;
 },
@@ -235666,7 +235676,7 @@ instanceInterpolations = {
 "F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.25246;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.26269;
 };
-name = "SmCondensed Light";
+name = "SemiCondensed Light";
 weightClass = 300;
 widthClass = 4;
 },
@@ -235690,7 +235700,7 @@ instanceInterpolations = {
 "F5B2086A-EC1C-45D9-9613-A3504CEE232E" = 0.49007;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.50993;
 };
-name = SmCondensed;
+name = SemiCondensed;
 widthClass = 4;
 },
 {
@@ -235715,7 +235725,7 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.12366;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.38126;
 };
-name = "SmCondensed Medium";
+name = "SemiCondensed Medium";
 weightClass = 500;
 widthClass = 4;
 },
@@ -235741,7 +235751,7 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.24732;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.25258;
 };
-name = "SmCondensed SemiBold";
+name = "SemiCondensed SemiBold";
 weightClass = 600;
 widthClass = 4;
 },
@@ -235769,7 +235779,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 linkStyle = SemiCondensed;
-name = "SmCondensed Bold";
+name = "SemiCondensed Bold";
 weightClass = 700;
 widthClass = 4;
 },
@@ -235795,7 +235805,7 @@ instanceInterpolations = {
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.43053;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.06195;
 };
-name = "SmCondensed ExtraBold";
+name = "SemiCondensed ExtraBold";
 weightClass = 800;
 widthClass = 4;
 },
@@ -235819,7 +235829,7 @@ instanceInterpolations = {
 "3E78BF7E-2ACA-4E8F-B7F7-8733FDFDD1D6" = 0.50993;
 "F74FB5BD-F4A6-4696-AECE-814F0CF1BFBE" = 0.49007;
 };
-name = "SmCondensed Black";
+name = "SemiCondensed Black";
 weightClass = 900;
 widthClass = 4;
 },
@@ -235848,8 +235858,8 @@ instanceInterpolations = {
 "3A742E95-6392-47DA-98D0-C770A5889573" = 0.49007;
 };
 isItalic = 1;
-linkStyle = "SmCondensed ExtraLight";
-name = "SmCondensed ExtraLight Italic";
+linkStyle = "SemiCondensed ExtraLight";
+name = "SemiCondensed ExtraLight Italic";
 weightClass = 200;
 widthClass = 4;
 },
@@ -235880,8 +235890,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.26269;
 };
 isItalic = 1;
-linkStyle = "SmCondensed Light";
-name = "SmCondensed Light Italic";
+linkStyle = "SemiCondensed Light";
+name = "SemiCondensed Light Italic";
 weightClass = 300;
 widthClass = 4;
 },
@@ -235910,8 +235920,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.50993;
 };
 isItalic = 1;
-linkStyle = SmCondensed;
-name = "SmCondensed Italic";
+linkStyle = SemiCondensed;
+name = "SemiCondensed Italic";
 widthClass = 4;
 },
 {
@@ -235941,8 +235951,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.38126;
 };
 isItalic = 1;
-linkStyle = "SmCondensed Medium";
-name = "SmCondensed Medium Italic";
+linkStyle = "SemiCondensed Medium";
+name = "SemiCondensed Medium Italic";
 weightClass = 500;
 widthClass = 4;
 },
@@ -235973,8 +235983,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.25258;
 };
 isItalic = 1;
-linkStyle = "SmCondensed SemiBold";
-name = "SmCondensed SemiBold Italic";
+linkStyle = "SemiCondensed SemiBold";
+name = "SemiCondensed SemiBold Italic";
 weightClass = 600;
 widthClass = 4;
 },
@@ -236006,8 +236016,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = SmCondensed;
-name = "SmCondensed Bold Italic";
+linkStyle = SemiCondensed;
+name = "SemiCondensed Bold Italic";
 weightClass = 700;
 widthClass = 4;
 },
@@ -236038,8 +236048,8 @@ instanceInterpolations = {
 "DA512DF4-6FCD-4164-96D6-05DE8967F50A" = 0.06195;
 };
 isItalic = 1;
-linkStyle = "SmCondensed ExtraBold";
-name = "SmCondensed ExtraBold Italic";
+linkStyle = "SemiCondensed ExtraBold";
+name = "SemiCondensed ExtraBold Italic";
 weightClass = 800;
 widthClass = 4;
 },
@@ -236068,8 +236078,8 @@ instanceInterpolations = {
 "5974A488-68BA-4ECA-A629-BBB8F5E8E8D7" = 0.49007;
 };
 isItalic = 1;
-linkStyle = "SmCondensed Black";
-name = "SmCondensed Black Italic";
+linkStyle = "SemiCondensed Black";
+name = "SemiCondensed Black Italic";
 weightClass = 900;
 widthClass = 4;
 },
@@ -236357,7 +236367,7 @@ instanceInterpolations = {
 "CF630257-B204-4765-8982-527F59E4E5D4" = 0.60109;
 m007 = 0.39891;
 };
-name = "SmExpanded ExtraLight";
+name = "SemiExpanded ExtraLight";
 weightClass = 200;
 widthClass = 6;
 },
@@ -236383,7 +236393,7 @@ instanceInterpolations = {
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.30965;
 m007 = 0.19341;
 };
-name = "SmExpanded Light";
+name = "SemiExpanded Light";
 weightClass = 300;
 widthClass = 6;
 },
@@ -236407,7 +236417,7 @@ instanceInterpolations = {
 "7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.39891;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.60109;
 };
-name = SmExpanded;
+name = SemiExpanded;
 widthClass = 6;
 },
 {
@@ -236432,7 +236442,7 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.10066;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.44942;
 };
-name = "SmExpanded Medium";
+name = "SemiExpanded Medium";
 weightClass = 500;
 widthClass = 6;
 },
@@ -236458,7 +236468,7 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.20132;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.29774;
 };
-name = "SmExpanded SemiBold";
+name = "SemiExpanded SemiBold";
 weightClass = 600;
 widthClass = 6;
 },
@@ -236486,7 +236496,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 linkStyle = SemiExpanded;
-name = "SmExpanded Bold";
+name = "SemiExpanded Bold";
 weightClass = 700;
 widthClass = 6;
 },
@@ -236512,7 +236522,7 @@ instanceInterpolations = {
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.35044;
 "FEA946D2-303E-4050-8628-E645DE71E218" = 0.07303;
 };
-name = "SmExpanded ExtraBold";
+name = "SemiExpanded ExtraBold";
 weightClass = 800;
 widthClass = 6;
 },
@@ -236536,7 +236546,7 @@ instanceInterpolations = {
 "3E78BF7E-2ACA-4E8F-B7F7-8733FDFDD1D6" = 0.60109;
 "CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.39891;
 };
-name = "SmExpanded Black";
+name = "SemiExpanded Black";
 weightClass = 900;
 widthClass = 6;
 },
@@ -236565,8 +236575,8 @@ instanceInterpolations = {
 "7B4F6316-DEA5-4C61-853A-FCC6E55FB2E9" = 0.39891;
 };
 isItalic = 1;
-linkStyle = "SmExpanded ExtraLight";
-name = "SmExpanded ExtraLight Italic";
+linkStyle = "SemiExpanded ExtraLight";
+name = "SemiExpanded ExtraLight Italic";
 weightClass = 200;
 widthClass = 6;
 },
@@ -236597,8 +236607,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.2055;
 };
 isItalic = 1;
-linkStyle = "SmExpanded Light";
-name = "SmExpanded Light Italic";
+linkStyle = "SemiExpanded Light";
+name = "SemiExpanded Light Italic";
 weightClass = 300;
 widthClass = 6;
 },
@@ -236627,8 +236637,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.39891;
 };
 isItalic = 1;
-linkStyle = SmExpanded;
-name = "SmExpanded Italic";
+linkStyle = SemiExpanded;
+name = "SemiExpanded Italic";
 widthClass = 6;
 },
 {
@@ -236658,8 +236668,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.29825;
 };
 isItalic = 1;
-linkStyle = "SmExpanded Medium";
-name = "SmExpanded Medium Italic";
+linkStyle = "SemiExpanded Medium";
+name = "SemiExpanded Medium Italic";
 weightClass = 500;
 widthClass = 6;
 },
@@ -236690,8 +236700,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.19759;
 };
 isItalic = 1;
-linkStyle = "SmExpanded SemiBold";
-name = "SmExpanded SemiBold Italic";
+linkStyle = "SemiExpanded SemiBold";
+name = "SemiExpanded SemiBold Italic";
 weightClass = 600;
 widthClass = 6;
 },
@@ -236723,8 +236733,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = SmExpanded;
-name = "SmExpanded Bold Italic";
+linkStyle = SemiExpanded;
+name = "SemiExpanded Bold Italic";
 weightClass = 700;
 widthClass = 6;
 },
@@ -236755,8 +236765,8 @@ instanceInterpolations = {
 "FF0E7F91-EBB7-4227-9826-320229507C52" = 0.04847;
 };
 isItalic = 1;
-linkStyle = "SmExpanded ExtraBold";
-name = "SmExpanded ExtraBold Italic";
+linkStyle = "SemiExpanded ExtraBold";
+name = "SemiExpanded ExtraBold Italic";
 weightClass = 800;
 widthClass = 6;
 },
@@ -236785,8 +236795,8 @@ instanceInterpolations = {
 "974B3D67-9F33-42CE-B7A8-3E18495C5B4F" = 0.39891;
 };
 isItalic = 1;
-linkStyle = "SmExpanded Black";
-name = "SmExpanded Black Italic";
+linkStyle = "SemiExpanded Black";
+name = "SemiExpanded Black Italic";
 weightClass = 900;
 widthClass = 6;
 },
