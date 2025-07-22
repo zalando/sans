@@ -1,47 +1,25 @@
 # Zalando Sans
 
-[![][Fontbakery]](https://zalando.github.io/sans.git/fontbakery/fontbakery-report.html)
-[![][Universal]](https://zalando.github.io/sans.git/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://zalando.github.io/sans.git/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://zalando.github.io/sans.git/fontbakery/fontbakery-report.html)
+Zalando Sans is a bespoke sans serif typeface, developed as a cornerstone of the Zalando brand identity. Designed with flexibility and accessibility at the heart, it meets the diverse needs of the Zalando eco-system.
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzalando%2Fsans.git%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzalando%2Fsans.git%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzalando%2Fsans.git%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzalando%2Fsans.git%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzalando%2Fsans.git%2Fgh-pages%2Fbadges%2FUniversal.json
+![Sample Image](documentation/ZalandoSans_1.png)  
 
-Zalando’s journey has been remarkable—transforming from a start-up into one of Europe’s leading online fashion platforms. As the market continues to evolve at pace, Zalando recognizes the need to evolve its business and brand to accelerate growth and stay at the forefront of the fashion and lifestyle landscape.
+The typeface offers exceptional adaptability through its variable font technology:
+	
+- A weight axis ranging from ExtraLight to Black
+- A width axis ranging from Condensed to Expanded
+- A slant axis ranging from upright to italic
+	
+This flexibility allows for a wide range of expressive possibilities while maintaining a cohesive brand presence. Rooted in a sans serif “grotesque” style, the typeface aims to balance clean simplicity with attitude, combining clarity with subtle moments of personality. Its clean lines and modern aesthetic reflect Zalando's forward-thinking approach to fashion and lifestyle.
 
-### Visual Identity
+![Sample Image](documentation/ZalandoSans_3.png)  
 
-![Sample Image](documentation/01_brand.png)  
-![Sample Image](documentation/02_brand.png)
+Staying true to Zalando’s personality—Bold, Fun, and Welcoming—Zalando Sans elevates every design it inhabits. When used effectively, it becomes a powerful design element, showcasing Zalando’s commitment to helping people feel confident in their style.
 
-Zalando has elevated its core design elements to craft a flexible yet cohesive identity, marking its evolution into an inspiring destination for fashion, lifestyle, and entertainment. At the center of this transformation is the **Zalando Sans typeface family**.
+![Sample Image](documentation/ZalandoSans_2.png)  
 
-**Zalando Sans** is a dynamic and versatile variable sans-serif typeface, designed to adapt effortlessly across tones, styles, and formats.
+Zalando Sans was designed by Jakob Ekelund of KH Type, Stockholm in 2025 in collaboration with the Zalando brand and product design teams in Berlin.
 
-With weight, width, and slant axes, the typeface embodies Zalando’s key design principles:
-
-- **Simple**: A system that is intuitive and easy to use, ensuring a consistent experience.  
-- **Dynamic**: Enhanced brand assets that drive recognition and pride.  
-- **Consistent**: A clarified brand role that fosters strong associations.  
-- **Flexible**: Future-ready design, built to scale with new propositions, experiences, and channels.
-
-### Brand Positioning
-
-![Sample Image](documentation/03_brand.png)
-
-Zalando positions itself as the go-to destination for quality fashion, lifestyle shopping, and personalized inspiration. Its visual identity is an expression of the brand promise: helping people feel confident in their style.
-
-Zalando’s brand identity embraces boldness, not just in visual expression but in its commitment to helping people feel confident and have fun with their personal style. Boldness means taking creative risks, celebrating individuality, and championing a culture of fearlessness,
-
-By turning up the fun and being welcoming in everything they do, Zalando creates moments that people can look forward to — curating a dynamic world of inspiration in motion.
-
-At the heart of it all, Zalando tells stories that champion personal style and inspire confidence.
-
-This is A New Style of Entertainment.
 
 ## Building the font
 
