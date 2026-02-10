@@ -273998,6 +273998,36 @@ widthClass = 7;
 {
 axesValues = (
 730,
+78,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExLt";
+},
+{
+name = "Decompose Glyphs";
+value = (
+dcroat
+);
+}
+);
+instanceInterpolations = {
+"7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.51515;
+m007 = 0.48485;
+};
+name = "Expanded Light";
+weightClass = 300;
+widthClass = 7;
+},
+{
+axesValues = (
+730,
 94,
 0
 );
@@ -274021,6 +274051,36 @@ instanceInterpolations = {
 "7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 1;
 };
 name = Expanded;
+widthClass = 7;
+},
+{
+axesValues = (
+730,
+121,
+0
+);
+customParameters = (
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Name Table Entry";
+value = "6; ZalandoSans-ExMd";
+},
+{
+name = "Decompose Glyphs";
+value = (
+dcroat
+);
+}
+);
+instanceInterpolations = {
+"7DF63F5B-BA78-420A-94D8-89AFC26E7780" = 0.74766;
+"CEA8704A-49A9-4D73-A586-1E9554ACC001" = 0.25234;
+};
+name = "Expanded Medium";
+weightClass = 500;
 widthClass = 7;
 },
 {
