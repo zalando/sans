@@ -2,10 +2,10 @@ sources:
   - ZalandoSans.glyphs
 familyName: "Zalando Sans"
 version: 1.800
-buildStatic: true
+buildStatic: false
 buildWebfont: false
-autohintTTF: true
-autohintOTF: true
+autohintTTF: false
+autohintOTF: false
 splitItalic: true
 recipeProvider: googlefonts
 recipe:
@@ -21,6 +21,15 @@ recipe:
     - operation: exec
       exe: gftools fix-nonhinting
       args: ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf ../fonts/variable/ZalandoSans[wdth,wght,slnt].ttf --no-backup
+    - operation: exec
+      exe: fontmake
+      args: -g ZalandoSans.glyphs -o ttf -i --output-dir ../fonts/ttf -a
+    - operation: exec
+      exe: fontmake
+      args: -g ZalandoSans.glyphs -o otf -i --output-dir ../fonts/otf 
+    - operation: exec
+      exe: sh
+      args: ../scripts/autohint.sh
 # Export webfont 
   ../fonts/webfonts/ZalandoSans[wdth,wght,slnt].ttf:
     - source: ZalandoSans.glyphs

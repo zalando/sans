@@ -169,7 +169,7 @@ gfsubsets==2025.11.4
     # via
     #   fontbakery
     #   gftools
-gftools[qa]==0.9.85
+gftools[qa]==0.9.992
     # via -r requirements.in
 gitdb==4.0.12
     # via gitpython

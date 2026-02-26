@@ -1,5 +1,5 @@
 {
-.appVersion = "3515";
+.appVersion = "3517";
 .formatVersion = 3;
 axes = (
 {
@@ -107,7 +107,6 @@ feature pnum;
 feature tnum;
 feature case;
 feature calt;
-feature rclt;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -357,7 +356,8 @@ lookup sub_multiply {
 	sub @number @space [x X]' @space @number by multiply;
 } sub_multiply;
 
-sub dcroat' [i idotless iacute ibreve icircumflex idieresis idotaccent idotbelow igrave ihookabove imacron iogonek itilde] by dcroat.calt;";
+sub dcroat' [i idotless iacute ibreve icircumflex idieresis idotaccent idotbelow igrave ihookabove imacron iogonek itilde] by dcroat.calt;
+";
 tag = calt;
 },
 {
