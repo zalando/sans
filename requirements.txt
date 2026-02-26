@@ -11,8 +11,6 @@ absl-py==2.4.0
     #   picosvg
 afdko==4.0.3
     # via gftools
-async-generator==1.10
-    # via trio-typing
 attrs==25.4.0
     # via
     #   cattrs
@@ -53,11 +51,11 @@ bumpfontversion==0.4.1
     # via
     #   -r requirements.in
     #   gftools
-cattrs==25.3.0
+cattrs==26.1.0
     # via
     #   statmake
     #   ufolib2
-certifi==2026.1.4
+certifi==2026.2.25
     # via
     #   requests
     #   selenium
@@ -79,7 +77,7 @@ commandlines==0.4.1
     # via ufolint
 compreffor==0.6.0
     # via ufo2ft
-cryptography==46.0.4
+cryptography==46.0.5
     # via pyjwt
 defcon[lxml,pens]==0.12.2
     # via
@@ -97,9 +95,7 @@ diffenator2==0.4.9
     #   gftools
 drawbot-skia==0.5.1
     # via -r requirements.in
-ffmpeg-python==0.2.0
-    # via gftools
-filelock==3.20.3
+filelock==3.24.3
     # via youseedee
 font-v==2.1.0
     # via gftools
@@ -107,7 +103,7 @@ fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot]==1.1.0
     # via gftools
 fontfeatures==1.9.0
     # via gftools
-fontmake[json]==3.11.1
+fontmake[json]==3.10.1
     # via
     #   -r requirements.in
     #   gftools
@@ -119,7 +115,7 @@ fontmath==0.10.0
     #   mutatormath
     #   ufo2ft
     #   ufoprocessor
-fontparts==0.14.0
+fontparts==0.14.1
     # via ufoprocessor
 fontpens==0.2.4
     # via defcon
@@ -163,8 +159,6 @@ freetype-py==2.3.0
     # via
     #   diffenator2
     #   fontbakery
-future==1.0.0
-    # via ffmpeg-python
 gflanguages==0.7.7
     # via
     #   diffenator2
@@ -175,7 +169,7 @@ gfsubsets==2025.11.4
     # via
     #   fontbakery
     #   gftools
-gftools[qa]==0.9.991
+gftools[qa]==0.9.85
     # via -r requirements.in
 gitdb==4.0.12
     # via gitpython
@@ -186,7 +180,7 @@ glyphsets==1.1.0
     #   diffenator2
     #   fontbakery
     #   gftools
-glyphslib==6.12.6
+glyphslib==6.12.7
     # via
     #   bumpfontversion
     #   fontmake
@@ -198,8 +192,6 @@ idna==3.11
     # via
     #   requests
     #   trio
-importlib-metadata==8.7.1
-    # via trio-typing
 importlib-resources==6.5.2
     # via gfsubsets
 jinja2==3.1.6
@@ -226,8 +218,6 @@ munkres==1.1.4
     # via fontbakery
 mutatormath==3.0.1
     # via ufoprocessor
-mypy-extensions==1.1.0
-    # via trio-typing
 nanoemoji==0.15.9
     # via gftools
 networkx==3.6.1
@@ -265,10 +255,9 @@ packaging==26.0
     # via
     #   fontbakery
     #   gftools
-    #   trio-typing
 picosvg==0.22.3
     # via nanoemoji
-pillow==12.1.0
+pillow==12.1.1
     # via
     #   diffenator2
     #   gftools
@@ -286,7 +275,7 @@ protobuf==3.20.3
     #   gftools
 pyahocorasick==2.3.0
     # via diffenator2
-pybind11==3.0.1
+pybind11==3.0.2
     # via skia-python
 pycairo==1.29.0
     # via gftools
@@ -296,7 +285,7 @@ pyclipper==1.4.0
     #   booleanoperations
 pycparser==3.0
     # via cffi
-pygit2==1.19.1
+pygit2==1.16.0
     # via gftools
 pygithub==2.8.1
     # via gftools
@@ -321,7 +310,7 @@ pyyaml==6.0.3
     #   fontbakery
     #   gftools
     #   glyphsets
-regex==2026.1.15
+regex==2026.2.19
     # via nanoemoji
 requests==2.32.5
     # via
@@ -332,7 +321,7 @@ requests==2.32.5
     #   youseedee
 resvg-cli==0.44.0
     # via nanoemoji
-rich==14.3.2
+rich==14.3.3
     # via
     #   fontbakery
     #   gftools
@@ -340,7 +329,7 @@ rstr==3.2.2
     # via stringbrewer
 ruamel-yaml==0.19.1
     # via gftools
-selenium==4.40.0
+selenium==4.41.0
     # via diffenator2
 sh==2.2.2
     # via -r requirements.in
@@ -350,7 +339,7 @@ six==1.17.0
     # via
     #   python-bidi
     #   python-dateutil
-skia-pathops==0.9.1
+skia-pathops==0.9.2
     # via
     #   collidoscope
     #   gftools
@@ -388,28 +377,20 @@ tqdm==4.67.3
     #   afdko
     #   collidoscope
     #   diffenator2
-trio==0.32.0
+trio==0.33.0
     # via
     #   selenium
-    #   trio-typing
     #   trio-websocket
-trio-typing==0.10.0
-    # via selenium
 trio-websocket==0.12.2
     # via selenium
 ttfautohint-py==0.6.0
     # via gftools
-types-certifi==2021.10.8.3
-    # via selenium
-types-urllib3==1.26.25.14
-    # via selenium
 typing-extensions==4.15.0
     # via
     #   beautifulsoup4
     #   cattrs
     #   pygithub
     #   selenium
-    #   trio-typing
 ufo2ft[cffsubr,compreffor]==3.6.9
     # via
     #   fontbakery
@@ -469,9 +450,7 @@ youseedee==0.5.3
     # via
     #   diffenator2
     #   glyphsets
-zipp==3.23.0
-    # via importlib-metadata
-zopfli==0.4.0
+zopfli==0.4.1
     # via
     #   fonttools
     #   nanoemoji
